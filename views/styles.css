@@ -1,0 +1,125 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+
+#wrapper{
+  background:#8e9eab;
+  background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  min-height:40rem;
+  padding:2rem;
+}
+#platform-wrapper{
+  margin:3rem 5rem;
+  padding:2rem;
+  background:#000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000);
+  background: linear-gradient(to bottom, #434343, #000);
+  min-height:36rem;
+  border-radius:5rem;
+}
+#headingStyles{
+  font-size:22px;
+  color:#d4d4d4;
+  display: flex;
+  width: 100%;
+}
+#headingStyles span{
+  margin:0 auto;
+}
+.dropdown-basic-button{
+  color:#000;
+  background-color:#cc9191;
+  border:0;
+}
+
+.dropdown-basic-button:focus, .dropdown-basic-button:hover{
+  box-shadow:0 0 0 0 rgba(0,0,0,.5);
+  background-color:#cc9191;
+  border:0;
+  color:#000;
+}
+.dropdown-item:hover{
+  background:#d4d4d4;
+}
+
+#myVideoURL{
+  width:30rem;
+  margin:0 auto;
+}
+
+#selectionButton{
+  padding:0.5rem 1.5rem;
+  margin-left:1rem;
+  color:#000;
+  background-color: #cc9191;
+  margin-bottom:0.3rem;
+  font-size:12px;
+  border:0;
+  outline:0;
+  box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+  display:inline-block;
+  border-radius:1rem;
+}
+.input-wrapper{
+  padding-left:3rem;
+  margin-top:2rem;
+  display:inline-block;
+}
+.video-player-wrapper{
+  margin-top:3rem;
+  margin-left:3rem;
+}
+
+.video-player{
+  width:35rem;
+}
+
+.safe-content-wrapper{
+ /* display:inline-block;*/
+  float:left;
+}
+
+#platformAdvantages{
+  width:20rem;
+  display:inline-block;
+}
+
+.card{
+  background-color:#cc9191;
+  margin-bottom:2rem;
+  border-radius:2rem;
+}
+
+.card-header{
+  height:2.5rem;
+  padding:2px 7px;
+  margin-bottom:2px;
+  border-bottom:0;
+}
+
+.card-header .btn{
+  padding-left:1rem;
+  padding-top:0.5rem;
+  padding-bottom:0;
+  text-decoration:none;
+}
+
+.card-header .btn:focus{
+  outline:0;
+  box-shadow:0 0 0 0 rgba(0,123,255,.25);
+}
+
+.card-body{
+  background-color:#333131;
+  color:#d4d4d4;
+  border-radius: 2rem;
+}
+
+.card-header .btn-link{
+  color:#000;
+}

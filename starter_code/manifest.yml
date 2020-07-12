@@ -1,8 +1,0 @@
-applications:
-  - path: .
-    name: Safe education
-    environment_json: {}
-    memory: 256M
-    instances: 1
-    disk_quota: 1024M
-    services: []

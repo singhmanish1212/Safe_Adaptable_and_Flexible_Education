@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script>
+
+        </script>
+
+</head>
+
+<body>
+    <!--div class="container" id="container">
+        <h1 data-i18n="welcome"></h1> 
+        <div id="nameInput" class="input-group-lg center-block helloInput">
+            <p class="lead" data-i18n="what_is_your_name"></p>
+            <input id="user_name" type="text" class="form-control" aria-describedby="sizing-addon1" value="" />
+        </div>
+        <p id="response" class="lead text-center"></p>
+
+        <p id="databaseNames" class="lead text-center"></p>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span><a href="https://console.bluemix.net/docs/tutorials/index.html" target="_blank">Looking for more tutorials?</a></span>
+        </div>
+    </footer-->
+<div id="wrapper">
+    <div id="platform-wrapper">
+        <div id="headingStyles"><span>SAFE: Safe Aaptable and Flexible Education</span></div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle dropdown-basic-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Languages
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div><a class="dropdown-item" href="#">English</a></div>
+              <div><a class="dropdown-item" href="#">Hindi</a></div>
+              <div><a class="dropdown-item" href="#">Spanish</a></div>
+            </div>
+          </div>
+
+          <div class="safe-content-wrapper">
+            <div class="input-video-wrapper">
+                
+                    <div class="input-wrapper">
+                        <form>
+                            <label for="URL">
+                                <input id="myVideoURL" class="video-url" type="text" name="url" placeholder="Enter Video URL"/>
+                            </label>
+                        </form>
+                </div>
+                        <Button id="selectionButton" class="mr-3">Submit</Button>
+                    
+                
+            </div>
+        
+        <div class="video-player-wrapper">
+            <video controls="" name="media" class="video-player">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+            </video>
+        </div>
+        </div>
+
+
+    <div class="accordion" id="platformAdvantages">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item #1
+              </button>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Collapsible Group Item #3
+                </button>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+            </div>
+            </div>
+          </div>
+
+
+          
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Collapsible Group Item #3
+                </button>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+            </div>
+            </div>
+          </div>
+
+      </div>
+
+</div>
+</div>
+<script>
+    $("#selectionButton"). click(function(){
+        var str = $("#myVideoURL"). val();
+        $(".video-player").get(0).pause();
+        $(".video-player").attr('src', str);
+        $(".video-player").get(0).load();
+        $(".video-player").get(0).play();
+
+    });
+
+    jQuery('#accordion .panel-heading').not(this).removeClass('isOpen');
+                jQuery(this).toggleClass('isOpen');
+                jQuery(this).next(".panel-collapse").addClass('thePanel');
+                jQuery('#accordion .panel-collapse').not('.thePanel').slideUp("fast"); 
+                jQuery(".thePanel").slideToggle("fast").removeClass('thePanel');
+</script>
+</body>
+
+
+</html>
+
