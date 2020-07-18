@@ -10,7 +10,7 @@ body {
   background:#8e9eab;
   background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
   background: linear-gradient(to bottom, #eef2f3, #8e9eab);
-  min-height:40rem;
+  min-height:50rem;
   padding:2rem;
 }
 #platform-wrapper{
@@ -19,7 +19,7 @@ body {
   background:#000000;
   background: -webkit-linear-gradient(to bottom, #434343, #000);
   background: linear-gradient(to bottom, #434343, #000);
-  min-height:36rem;
+  min-height:45rem;
   border-radius:5rem;
 }
 #headingStyles{
@@ -27,6 +27,7 @@ body {
   color:#d4d4d4;
   display: flex;
   width: 100%;
+  margin-bottom:2rem;
 }
 #headingStyles span{
   margin:0 auto;
@@ -52,7 +53,11 @@ body {
   margin:0 auto;
 }
 
-#selectionButton{
+.styleLabel{
+  color:#d4d4d4;
+}
+
+#selectionButton, .Browsebutton,.SelectLanguagebutton,.changeLanguage{
   padding:0.5rem 1.5rem;
   margin-left:1rem;
   color:#000;
@@ -64,6 +69,39 @@ body {
   box-shadow: 0 0 0 0 rgba(0,123,255,.25);
   display:inline-block;
   border-radius:1rem;
+  
+}
+.changeLanguage{
+  display:block;
+  padding: 0.2rem;
+  margin-top: 1.5rem;
+  width:95%;
+  font-size:16px;
+}
+.browseWrapper{
+  margin-top:2rem;
+  margin-left:1rem;
+  display:inline-block;
+}
+.SelectLanguagebutton{
+  margin-right: 1rem;
+  padding:0;
+}
+
+.SelectLanguagebutton select{ 
+  font-size:14px;
+  background-color: #cc9191;
+  color:#000;
+  padding: 0 0.8rem;
+  border:0;
+  border-radius: 1rem;
+  width:8rem;
+}
+
+.SelectLanguagebutton select:focus{
+  background-color: #cc9191;
+  color:#000;
+  border:0;
 }
 .input-wrapper{
   padding-left:3rem;
@@ -87,6 +125,7 @@ body {
 #platformAdvantages{
   width:20rem;
   display:inline-block;
+  margin-top:2rem;
 }
 
 .card{

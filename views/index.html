@@ -42,16 +42,7 @@
 <div id="wrapper">
     <div id="platform-wrapper">
         <div id="headingStyles"><span>SAFE: Safe Aaptable and Flexible Education</span></div>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle dropdown-basic-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Languages
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <div><a class="dropdown-item" href="#">English</a></div>
-              <div><a class="dropdown-item" href="#">Hindi</a></div>
-              <div><a class="dropdown-item" href="#">Spanish</a></div>
-            </div>
-          </div>
+
 
           <div class="safe-content-wrapper">
             <div class="input-video-wrapper">
@@ -61,18 +52,44 @@
                             <label for="URL">
                                 <input id="myVideoURL" class="video-url" type="text" name="url" placeholder="Enter Video URL"/>
                             </label>
-                        </form>
+                            
+                            <Button id="selectionButton" class="mr-3">Submit</Button><br/>
+                          </form>
                 </div>
-                        <Button id="selectionButton" class="mr-3">Submit</Button>
-                    
-                
+
             </div>
         
         <div class="video-player-wrapper">
             <video controls="" name="media" class="video-player">
-                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" download type="video/mp4">
             </video>
         </div>
+
+        <form>
+    <div class="browseWrapper">
+      
+        <label class="styleLabel" for="myfile">Select Downloaded file:</label>
+        <input class="Browsebutton" type="file" id="myfile" name="DownloadedFile">
+     
+    </div>
+    <div class="dropdown SelectLanguagebutton">
+      <!--button class="btn btn-secondary dropdown-toggle dropdown-basic-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Languages
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div><a class="dropdown-item" href="#">English</a></div>
+        <div><a class="dropdown-item" href="#">Hindi</a></div>
+        <div><a class="dropdown-item" href="#">Spanish</a></div>
+      </div-->
+      <select class="form-control" id="sel1">
+        <option>English</option>
+        <option>Spanish</option>
+        <option>Hindi</option>
+        <option>French</option>
+      </select>
+    </div>
+    <Button class="changeLanguage" type="sbmit" class="mr-3">Change Language</Button>
+  </form>
         </div>
 
 
@@ -160,8 +177,13 @@
     jQuery('#accordion .panel-heading').not(this).removeClass('isOpen');
                 jQuery(this).toggleClass('isOpen');
                 jQuery(this).next(".panel-collapse").addClass('thePanel');
-                jQuery('#accordion .panel-collapse').not('.thePanel').slideUp("fast"); 
-                jQuery(".thePanel").slideToggle("fast").removeClass('thePanel');
+                //jQuery('#accordion .panel-collapse').not('.thePanel').slideUp("fast"); 
+                //jQuery(".thePanel").slideToggle("fast").removeClass('thePanel');
+
+    // $('input[type=file]').change(function () {
+       //console.log("hello");
+      //console.log(this.files[0]);
+    //});
 </script>
 </body>
 
