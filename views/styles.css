@@ -49,7 +49,7 @@ body {
 }
 
 #myVideoURL{
-  width:30rem;
+  width:25rem;
   margin:0 auto;
 }
 
@@ -71,6 +71,10 @@ body {
   border-radius:1rem;
   
 }
+
+.Browsebutton{
+  width:100%;
+}
 .changeLanguage{
   display:block;
   padding: 0.2rem;
@@ -82,10 +86,13 @@ body {
   margin-top:2rem;
   margin-left:1rem;
   display:inline-block;
+  width:60%;
 }
 .SelectLanguagebutton{
   margin-right: 1rem;
   padding:0;
+  width:20%;
+  margin-left:10%;
 }
 
 .SelectLanguagebutton select{ 
@@ -107,6 +114,7 @@ body {
   padding-left:3rem;
   margin-top:2rem;
   display:inline-block;
+  width:100%;
 }
 .video-player-wrapper{
   margin-top:3rem;
@@ -114,18 +122,20 @@ body {
 }
 
 .video-player{
-  width:35rem;
+  width:100%;
 }
 
 .safe-content-wrapper{
  /* display:inline-block;*/
   float:left;
+  width:60%;
 }
 
 #platformAdvantages{
-  width:20rem;
+  width:35%;
   display:inline-block;
   margin-top:2rem;
+  margin-left:4%;
 }
 
 .card{
