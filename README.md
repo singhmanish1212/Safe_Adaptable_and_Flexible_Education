@@ -1,3 +1,24 @@
+#Quick Intro to SAFE
+> SAFE is a bridge between the Learners and online learning platform. 
+> Overcomes language barrier instantly.
+> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture. 
+
+#SAFE OverView
+>SAFE Application UI is both desktop and UI compatible.
+>User must browse and select a video file. 
+>User must select the language in which the output is desired. 
+>User submits the request.
+>Video is then played in the selected language with 80 to 90% accuracy. 
+
+#Technicality Behind
+
+#Known Issues
+
+#Upcoming Features
+>Integration of AI
+>Inetegration of other skilled activities to keep the Learner engaged during breaks.
+>Add features for differently skilled individuals. 
+
 # Node.js getting started application
 The Getting Started tutorial for Node.js uses this sample application to provide you with a sample workflow for working with any Node.js app on IBM Cloud or in IBM Cloud Private; you set up a development environment, deploy an app locally and on the cloud, and then integrate a IBM Cloud database service in your app.
 
