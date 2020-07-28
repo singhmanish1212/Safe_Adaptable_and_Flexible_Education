@@ -34,7 +34,7 @@
 
   <div id="wrapper">
     <div id="platform-wrapper">
-      <div id="headingStyles"><span><div class="hat-image-wrapper"><img class="responsive-image" src="assets/image/download.png" alt="alternatetext"></div>SAFE: Safe Aaptable and Flexible Education</span></div>
+      <div id="headingStyles"><span><div class="hat-image-wrapper"><img class="responsive-image" src="assets/image/download.png" alt="Hat"></div>SAFE: Safe Aaptable and Flexible Education</span></div>
 
 
       <div class="safe-content-wrapper">
@@ -54,7 +54,7 @@
 
         <div class="video-player-wrapper">
           <video controls="" name="media" class="video-player">
-            <source src="" download type="video/mp4">
+            <source src="assets/video/machine.mkv" download type="video/mp4">
           </video>
         </div>
 
@@ -72,6 +72,7 @@
             <option value="Spanish">Spanish</option>
             <option value="Hindi">Hindi</option>
             <option value="French">French</option>
+            <option value="Tamil">Tamil</option>
           </select>
         </div>
         <Button class="changeLanguage" class="mr-3">Change Language</Button>
@@ -159,33 +160,36 @@
   <script>
     $("#selectionButton").click(function () {
       var str = $("#myVideoURL").val();
-      console.log(str);
       $(".video-player").get(0).pause();
       $(".video-player").attr('src', str);
       $(".video-player").get(0).load();
       $(".video-player").get(0).play();
-
     });
     $(".changeLanguage").click(function () {
       var strLanguage = $("#sel1").val();
       var videolink = $(".Browsebutton").val();
-
-
       url = "?language=" + strLanguage + "&&downloadedVideo=" + videolink;
       url = location.protocol + '//' + location.host + location.pathname + url;
-      window.location = url;
+      //window.location = url;
+      $(".video-player").get(0).pause();
+      if(strLanguage == 'French') {
+        $(".video-player").attr('src', 'assets/video/output_video_file_french.mp4');
+      } else if(strLanguage == 'Spanish') {
+        $(".video-player").attr('src', 'assets/video/output_video_file_spanish.mp4');
+      } else if(strLanguage == 'Hindi') {
+        $(".video-player").attr('src', 'assets/video/machine_hindi.mp4');
+      } else if(strLanguage == 'Tamil') {
+        $(".video-player").attr('src', 'assets/video/output_video_file_tamil.mp4');
+      }
+      $(".video-player").get(0).load();
+      $(".video-player").get(0).play();
+
     });
 
     jQuery('#accordion .panel-heading').not(this).removeClass('isOpen');
     jQuery(this).toggleClass('isOpen');
     jQuery(this).next(".panel-collapse").addClass('thePanel');
-                //jQuery('#accordion .panel-collapse').not('.thePanel').slideUp("fast");
-                //jQuery(".thePanel").slideToggle("fast").removeClass('thePanel');
 
-    // $('input[type=file]').change(function () {
-       //console.log("hello");
-      //console.log(this.files[0]);
-    //});
   </script>
 </body>
 
