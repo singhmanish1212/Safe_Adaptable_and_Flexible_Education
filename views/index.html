@@ -168,9 +168,9 @@
     $(".changeLanguage").click(function () {
       var strLanguage = $("#sel1").val();
       var videolink = $(".Browsebutton").val();
-      url = "?language=" + strLanguage + "&&downloadedVideo=" + videolink;
+      url = "name?firstname=" + strLanguage + "&lastname=" + videolink;
       url = location.protocol + '//' + location.host + location.pathname + url;
-      //window.location = url;
+      window.location = url;
       $(".video-player").get(0).pause();
       if(strLanguage == 'French') {
         $(".video-player").attr('src', 'assets/video/output_video_file_french.mp4');
