@@ -13,9 +13,10 @@
   <link href="styles.css" rel="stylesheet">
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
@@ -53,8 +54,8 @@
         </div>
 
         <div class="video-player-wrapper">
-          <video controls="" name="media" class="video-player">
-            <source src="assets/video/machine.mkv" download type="video/mp4">
+          <video controls="" name="media" class="video-player" poster="assets/image/language1.png">
+            <source src="" download type="video/mp4">
           </video>
         </div>
 
@@ -166,13 +167,16 @@
       $(".video-player").get(0).play();
     });
     $(".changeLanguage").click(function () {
+      
+      $(".video-player").attr('poster', "assets/image/loading.gif");
       var strLanguage = $("#sel1").val();
       var videolink = $(".Browsebutton").val();
       url = "name?firstname=" + strLanguage + "&lastname=" + videolink;
       url = location.protocol + '//' + location.host + location.pathname + url;
       window.location = url;
       $(".video-player").get(0).pause();
-      if(strLanguage == 'French') {
+     /* if(strLanguage == 'French') {
+        
         $(".video-player").attr('src', 'assets/video/output_video_file_french.mp4');
       } else if(strLanguage == 'Spanish') {
         $(".video-player").attr('src', 'assets/video/output_video_file_spanish.mp4');
@@ -180,7 +184,33 @@
         $(".video-player").attr('src', 'assets/video/machine_hindi.mp4');
       } else if(strLanguage == 'Tamil') {
         $(".video-player").attr('src', 'assets/video/output_video_file_tamil.mp4');
-      }
+      }*/
+      var interval = null;
+      interval= setInterval(searchVideo, 3000);
+      function searchVideo(){   $.ajax({
+          url:'assets/video/output5.mp4',
+          type:'HEAD',
+            error: function()
+          {
+            //file not exists
+          },
+            success: function()
+          {
+            //file exists
+            console.log("yes");
+            
+            //$(".video-player").get(0).pause();
+            setTimeout(function(){  $(".video-player").attr('src', 'assets/video/output5.mp4');
+            $(".video-player").get(0).load();
+            $(".video-player").get(0).play();
+             }, 20000);
+           
+           
+            clearInterval(interval);
+            window.stop();
+          }
+        });
+         }
       $(".video-player").get(0).load();
       $(".video-player").get(0).play();
 
