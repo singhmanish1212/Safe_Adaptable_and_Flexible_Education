@@ -106,7 +106,7 @@ function callName(req, res) {
 
   // E.g : http://localhost:3000/name?firstname=Mike&lastname=Will 
   // so, first name = Mike and last name = Will 
-  var process = spawn('python', ["./Video Conversion/hello.py",
+  var process = spawn('python', ["./views/assets/video/XMediaConverter.py",
     req.query.firstname,
     req.query.lastname]);
 
