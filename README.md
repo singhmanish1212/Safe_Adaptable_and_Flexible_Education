@@ -30,16 +30,10 @@
 
 **With SAFE we break the language barriers. Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
 
-## Salient Features
-* SAFE Application UI is both desktop and UI compatible.<br>
-* User must browse and select a video file.<br>
-* User must select the language in which the output is desired.<br>
-* User submits the request.<br>
-* Video is then played in the selected language with 80 to 90% accuracy.<br>
-
 ## How can technology help?
 
 **to be updated**<br>
+**do we need this section**
 
 **Mobile, web, and cloud services enable rapid deployment of applications that can empower cooperation in the community. **Watson Assistant is a service on IBM Cloud that allows you to build, train, and deploy conversational interactions into any application, device, or channel.
 Creating a chatbot using Watson Assistant can help you address the issues that your users may face while trying to gather the necessary information. Embedding location/routing services (like HERE) can enhance such applications, giving optimum guidance so that they are outside of their isolation location for the minimum amount of time.**
@@ -48,9 +42,19 @@ Creating a chatbot using Watson Assistant can help you address the issues that y
 We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
 **A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
-SAFE is a bridge between the Learners and online learning platform.<br> Overcomes language barrier instantly.<br> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+* SAFE is a **bridge between the Learners and online learning platform.<br>
+* Overcomes language barrier instantly.<br>
+* Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+
+## Salient Features
+* SAFE Application UI is both desktop and UI compatible.<br>
+* User must browse and select a video file.<br>
+* User must select the language in which the output is desired.<br>
+* User submits the request.<br>
+* Video is then played in the selected language with 80 to 90% accuracy.<br>
 
 # How it works
+
 SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
 This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
 
