@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World</title>
+  <title>SAFE: Safe Aaptable and Flexible Education </title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -13,9 +13,10 @@
   <link href="styles.css" rel="stylesheet">
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
@@ -34,13 +35,13 @@
 
   <div id="wrapper">
     <div id="platform-wrapper">
-      <div id="headingStyles"><span><div class="hat-image-wrapper"><img class="responsive-image" src="assets/image/download.png" alt="alternatetext"></div>SAFE: Safe Aaptable and Flexible Education</span></div>
+      <div id="headingStyles"><span><div class="hat-image-wrapper"><img class="responsive-image" src="assets/image/download.png" alt="Hat"></div>SAFE: Safe Aaptable and Flexible Education</span></div>
 
 
       <div class="safe-content-wrapper">
         <div class="input-video-wrapper">
 
-          <div class="input-wrapper">
+          <!--div class="input-wrapper">
 
             <label for="URL">
               <input id="myVideoURL" class="video-url" type="text" name="url" placeholder="Enter Video URL" />
@@ -48,12 +49,12 @@
 
             <Button id="selectionButton" class="mr-3">Submit</Button><br />
 
-          </div>
+          </div--->
 
         </div>
 
         <div class="video-player-wrapper">
-          <video controls="" name="media" class="video-player">
+          <video controls="" name="media" class="video-player" poster="assets/image/language1.png">
             <source src="" download type="video/mp4">
           </video>
         </div>
@@ -72,6 +73,21 @@
             <option value="Spanish">Spanish</option>
             <option value="Hindi">Hindi</option>
             <option value="French">French</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Belarusian">Belarusian</option>
+            <option value="Bengali">Bengali</option>
+            <option value="Dutch">Dutch</option>
+            <option value="Gujarati">Gujarati</option>
+            <option value="Indonesian">Indonesian</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Kannada">Kannada</option>
+            <option value="Malayalam">Malayalam</option>
+            <option value="Punjabi">Punjabi</option>
+            <option value="Russian">Russian</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Urdu">Urdu</option>
+            <option value="Italian">Italian</option>
           </select>
         </div>
         <Button class="changeLanguage" class="mr-3">Change Language</Button>
@@ -80,7 +96,7 @@
 
 
       <div class="accordion" id="platformAdvantages">
-        <div class="card">
+        <!--div class="card">
           <div class="card-header" id="headingOne">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne">
@@ -88,7 +104,7 @@
             </button>
           </div>
 
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne"  aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
               Paste Direct Video URL in the input box and click Submit button
             </div>
@@ -101,20 +117,20 @@
               Second Step to SAFE learning
             </button>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div id="collapseTwo"  aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
               Check Your video then click on video control(more options) and click download.
             </div>
           </div>
-        </div>
+        </div-->
         <div class="card">
           <div class="card-header" id="headingThree">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
               aria-expanded="false" aria-controls="collapseThree">
-              Third Step to SAFE learning
+              First Step to SAFE learning
             </button>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
               Browse your downloaded file.
             </div>
@@ -125,10 +141,10 @@
           <div class="card-header" id="headingFour">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
               aria-expanded="false" aria-controls="collapseFour">
-              Fourth Step to SAFE learning
+              Second Step to SAFE learning
             </button>
           </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div id="collapseFour"  aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
               Select desired Language
             </div>
@@ -141,10 +157,10 @@
           <div class="card-header" id="headingFive">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
               aria-expanded="false" aria-controls="collapseFive">
-              Fifth and final Step to SAFE learning
+              Third and final Step to SAFE learning
             </button>
           </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div id="collapseFive"  aria-labelledby="headingFive" data-parent="#accordionExample">
             <div class="card-body">
               Click on Change Language buton. Give time for processing then, Enjoy your video.
               <br /><b>SAFE learning</b>
@@ -159,33 +175,65 @@
   <script>
     $("#selectionButton").click(function () {
       var str = $("#myVideoURL").val();
-      console.log(str);
       $(".video-player").get(0).pause();
       $(".video-player").attr('src', str);
       $(".video-player").get(0).load();
       $(".video-player").get(0).play();
-
     });
     $(".changeLanguage").click(function () {
+      
+      $(".video-player").attr('poster', "assets/image/loading.gif");
       var strLanguage = $("#sel1").val();
       var videolink = $(".Browsebutton").val();
-
-
-      url = "?language=" + strLanguage + "&&downloadedVideo=" + videolink;
+      url = "name?firstname=" + strLanguage + "&lastname=" + videolink;
       url = location.protocol + '//' + location.host + location.pathname + url;
       window.location = url;
+      $(".video-player").get(0).pause();
+     /* if(strLanguage == 'French') {
+        
+        $(".video-player").attr('src', 'assets/video/output_video_file_french.mp4');
+      } else if(strLanguage == 'Spanish') {
+        $(".video-player").attr('src', 'assets/video/output_video_file_spanish.mp4');
+      } else if(strLanguage == 'Hindi') {
+        $(".video-player").attr('src', 'assets/video/machine_hindi.mp4');
+      } else if(strLanguage == 'Tamil') {
+        $(".video-player").attr('src', 'assets/video/output_video_file_tamil.mp4');
+      }*/
+      var interval = null;
+      interval= setInterval(searchVideo, 3000);
+      function searchVideo(){   $.ajax({
+          url:'assets/video/output17.mp4',
+          type:'HEAD',
+            error: function()
+          {
+            //file not exists
+          },
+            success: function()
+          {
+            //file exists
+            console.log("yes");
+            
+            //$(".video-player").get(0).pause();
+            setTimeout(function(){  $(".video-player").attr('src', 'assets/video/output17.mp4');
+            $(".video-player").get(0).load();
+            $(".video-player").get(0).play();
+             }, 50000);
+           
+           
+            clearInterval(interval);
+            window.stop();
+          }
+        });
+         }
+      // $(".video-player").get(0).load();
+      // $(".video-player").get(0).play();
+
     });
 
     jQuery('#accordion .panel-heading').not(this).removeClass('isOpen');
     jQuery(this).toggleClass('isOpen');
     jQuery(this).next(".panel-collapse").addClass('thePanel');
-                //jQuery('#accordion .panel-collapse').not('.thePanel').slideUp("fast");
-                //jQuery(".thePanel").slideToggle("fast").removeClass('thePanel');
 
-    // $('input[type=file]').change(function () {
-       //console.log("hello");
-      //console.log(this.files[0]);
-    //});
   </script>
 </body>
 
