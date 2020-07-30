@@ -10,16 +10,16 @@
 
 # Contents
 1. [Overview](#Overview)<br>
-2. The Idea <br>
-3. How it works<br>
-4. Diagrams<br>
-5. Documents<br>
-6. Technology<br>
-7. Getting started<br>
-8. Resources<br>
-9. License<br>
-10. Known Issues
-11. Upcoming Features
+2. [The Idea](#The-Idea)<br>
+3. [How it works](#How-it-works)<br>
+4. [Diagrams](#Diagrams)<br>
+5. [Documents](#Documents)<br>
+6. [Technology](#Technology)<br>
+7. [Getting started](#Getting-started)<br>
+8. [Resources](#Resources)<br>
+9. [License](#License)<br>
+10. [Known Issues](#Known-Issues)<br>
+11. [Upcoming Features](#Upcoming-Features)<br>
 
 # Overview 
 
@@ -61,7 +61,7 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Diagram
 
-![Test Image 7](https://github.com/tograh/testrepository/master/3DTest.png)
+**paste architecture diagram here**
 
 # Documents
 
