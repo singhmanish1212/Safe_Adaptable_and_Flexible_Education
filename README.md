@@ -1,4 +1,4 @@
-<h1 style="font-size:35px;">Community collaboration in the context of COVID-19</h1>
+<h1 style="font-size:30px;">SAFE - Safe Adaptable and Flexible Education</h1>
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 <h1 style="font-size:25px;">Authors</h1><br>
