@@ -9,19 +9,19 @@
 * Mudita Bhatia
 
 # Contents
-1. Overview <br>
-2. The Idea <br>
-3. How it works<br>
-4. Diagrams<br>
-5. Documents<br>
-6. Technology<br>
-7. Getting started<br>
-8. Resources<br>
-9. License<br>
-10. Known Issues
-11. Upcoming Features
+1. [Overview](#Overview)<br>
+2. [The Idea](#The-Idea)<br>
+3. [How it works](#How-it-works)<br>
+4. [Diagrams](#Diagrams)<br>
+5. [Documents](#Documents)<br>
+6. [Technology](#Technology)<br>
+7. [Getting started](#Getting-started)<br>
+8. [Resources](#Resources)<br>
+9. [License](#License)<br>
+10. [Known Issues](#Known-Issues)<br>
+11. [Upcoming Features](#Upcoming-Features)<br>
 
-# Overview
+# Overview 
 
 ## What is the problem?
 
@@ -60,8 +60,8 @@ SAFE does this by **using Google APIs – speech to text and text to speech**, w
 This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
 
 # Diagram
+![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
 
-**paste architecture diagram here**
 
 # Documents
 
@@ -161,12 +161,9 @@ With the application running in the simulator/emulator, you should be able to na
 # Resources
 **to be updated**<br>
 IBM Cloud
-Watson Assistant
 IBM Cloudant
-HERE Location Services
 Node.js
 React Native
-IBM Blockchain for Developers
 License
 This solution starter is made available under the Apache 2 License.
 
@@ -210,26 +207,21 @@ SAFE is a **universal, all-inclusive platform, breaking the language barrier** r
 
 **Frontend UI Development**
 **to be updated**
-1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`Yarn`](https://classic.yarnpkg.com/en/docs/install/).
+1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`npm`](https://www.npmjs.com/get-npm).
 2. In a new terminal, change to the `frontend` directory from the project root and install the dependencies:
     ```bash 
     cd frontend
-    yarn install
+    npm install
+    npm update
     ```  
 3. Launch the frontend application:  
     **Compiles and hot-reloads for development**
     ```bash
-    yarn serve
+    cd code_for_call2020
+    npm start
     ```
-    **Compiles and minifies for production**
-    ```bash
-    yarn build
-   ```
-    **Lints and fixes files**
-    ```bash
-    yarn lint
-    ```
-The frontend UI is now running at `http://localhost:8080/` in your browser. 
+ 
+The frontend UI is now running at `http://localhost:3000/` in your browser. 
 
 ## 5. Language Translator Extension
 
@@ -281,12 +273,6 @@ You'll need a [IBM Cloud account](https://console.ng.bluemix.net/registration/),
 **IBM Cloud Kubernetes Service**: [README-kubernetes.md](README-kubernetes.md)
 
 **IBM Cloud Private**: The starter application for IBM Cloud Private guides you through a similar process. However, instead of hosting both your service and application in the same cloud environment, you use a user-provided service. This guide shows you how to deploy your application to IBM Cloud Private and bind it to a Cloudant Database in IBM Cloud. For the complete procedure, see [Working with user-provided services and the Node.js starter app](https://www.ibm.com/support/knowledgecenter/SSBS6K_2.1.0/cloud_foundry/buildpacks/buildpacks_using_nodejsapp.html).
-
-
-
-
-
-
 
 
 

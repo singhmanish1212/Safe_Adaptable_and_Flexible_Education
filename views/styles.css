@@ -7,24 +7,47 @@ body {
 }
 
 #wrapper{
-  background:#8e9eab;
+  /*background:#8e9eab;
   background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
-  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);*/
+
+  background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height:60rem;
   padding:2rem;
 }
 #platform-wrapper{
   margin:3rem 5rem;
   padding:2rem;
-  background:#000000;
+  /*background:#000000;
   background: -webkit-linear-gradient(to bottom, #434343, #000);
-  background: linear-gradient(to bottom, #434343, #000);
-  min-height:60rem;
+  background: linear-gradient(to bottom, #434343, #000);*/
+
+ /* background: #70e1f5;  
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5); 
+background: linear-gradient(to right, #ffd194, #70e1f5);
+*/
+
+/*background: #00C9FF;  
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF); 
+background: linear-gradient(to right, #92FE9D, #00C9FF); 
+
+*/
+/*
+background: #ECE9E6; 
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+*/
+background:#fff;
+  min-height:50rem;
   border-radius:5rem;
 }
 #headingStyles{
   font-size:22px;
-  color:#d4d4d4;
+  color:#000;
   display: flex;
   width: 100%;
   margin-bottom:2rem;
@@ -34,13 +57,13 @@ body {
 }
 .dropdown-basic-button{
   color:#000;
-  background-color:#cc9191;
+  background-color:#fc9927;
   border:0;
 }
 
 .dropdown-basic-button:focus, .dropdown-basic-button:hover{
   box-shadow:0 0 0 0 rgba(0,0,0,.5);
-  background-color:#cc9191;
+  background-color:#fc9927;
   border:0;
   color:#000;
 }
@@ -60,8 +83,8 @@ body {
 #selectionButton, .Browsebutton,.SelectLanguagebutton,.changeLanguage{
   padding:0.5rem 1.5rem;
   margin-left:1rem;
-  color:#000;
-  background-color: #cc9191;
+  color:#fff;
+  background-color: #fc9927;
   margin-bottom:0.3rem;
   font-size:12px;
   border:0;
@@ -97,8 +120,8 @@ body {
 
 .SelectLanguagebutton select{ 
   font-size:14px;
-  background-color: #cc9191;
-  color:#000;
+  background-color: #fc9927;
+  color:#fff;
   padding: 0 0.8rem;
   border:0;
   border-radius: 1rem;
@@ -106,7 +129,7 @@ body {
 }
 
 .SelectLanguagebutton select:focus{
-  background-color: #cc9191;
+  background-color: #fc9927;
   color:#000;
   border:0;
 }
@@ -139,9 +162,10 @@ body {
 }
 
 .card{
-  background-color:#cc9191;
+  background-color:#fc9927;
   margin-bottom:2rem;
   border-radius:2rem;
+  color:#fff;
 }
 
 .card-header{
@@ -155,12 +179,17 @@ body {
 .responsive-image {
     width: 100%;
     /* height: 100%; */
-    position: absolute;
-    top: -43px;
-    left: 25px;
-    transform: rotate(330deg);
 }
-
+.safe-image{
+  width: 15rem;
+  height: 7rem;
+}
+.hat-image {
+  position: absolute;
+  top: -43px;
+  left: 25px;
+  transform: rotate(330deg);
+}
 .hat-image-wrapper{
   width:3rem;
   position:relative;
@@ -180,11 +209,11 @@ body {
 }
 
 .card-body{
-  background-color:#333131;
-  color:#d4d4d4;
+  background-color:#fff;
+  color:#000;
   border-radius: 2rem;
 }
 
 .card-header .btn-link{
-  color:#000;
+  color:#fff;
 }
