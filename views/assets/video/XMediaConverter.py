@@ -18,7 +18,17 @@ print('The line no 15 executed.')
 import moviepy.editor as mp
 #import sys
 print('The line no 18 executed.')
- 
+
+index=1
+while True:
+    print(os.path.exists("views/assets/video/output"+str(index)+".mp4"))
+    if os.path.exists("views/assets/video/output"+str(index)+".mp4"):
+        #os.remove("views/assets/video/output"+str(index)+".mp4")
+        index=index+1
+    else:
+        print('The line no 29 executed.', index)
+        break
+print('The line no 31 executed.', index)
 #sys.exit(1)
 # Insert Local Video File Path
 try:
@@ -195,16 +205,12 @@ new_audio_file = myobj.save("converted_audio.mp3")
 
 # Playing the converted file
 os.system("mpg3211 converted_audio.mp3")
-if os.path.exists("output.mp4."):
-    os.remove("output.mp4")
-
-print('The line no 202 executed.',outputPath)
 
 
 #Merging the Converted audio file and video file
 video = mp.VideoFileClip(video_file_name)
-outputPath = os.path.abspath('views/assets/video/' + 'output.mp4')
-print('The line no 205 executed.',outputPath)
+outputPath = os.path.abspath('views/assets/video/' + 'output' + str(index) + '.mp4')
+print('The line no 213 executed.',outputPath)
 video.write_videofile(outputPath, audio="converted_audio.mp3")
 
  
