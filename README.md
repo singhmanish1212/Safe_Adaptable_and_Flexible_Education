@@ -1,3 +1,58 @@
+### Frontend UI
+
+### Frontend UI Development
+1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`Yarn`](https://classic.yarnpkg.com/en/docs/install/).
+2. In a new terminal, change to the `frontend` directory from the project root and install the dependencies:
+    ```bash 
+    cd frontend
+    yarn install
+    ```
+3. Launch the frontend application:  
+    **Compiles and hot-reloads for development**
+    ```bash
+    yarn serve
+    ```
+    **Compiles and minifies for production**
+    ```bash
+    yarn build
+   ```
+    **Lints and fixes files**
+    ```bash
+    yarn lint
+    ```
+The frontend UI is now running at `http://localhost:8080/` in your browser. 
+
+## 5. Language Translator Extension
+
+This tutorial shows you how to create a Watson Language Translator service and write the necessary server side code to translate video transcriptions. The front-end UI implementation is left as an extension for you to implement yourself. Hint - inspecting the `upload_video` function in `server/routes/index.py`, you can see that the server side expects a `source` and a `target` language as part of the POST request form data to `/upload_video`. Supported language models are provided at [https://localhost:3000/language_models](http://localhost:3000/language_models) once your server is running.
+## 6. Deploy the app
+
+The following instructions apply to deploying the Python Flask server. To deploy the frontend UI, follow the [Node.js build and deploy tutorial](https://developer.ibm.com/node/getting-started-node-js-ibm-cloud/).
+### Deploying to IBM Cloud
+
+You can [deploy this application to IBM Cloud](https://cloud.ibm.com/developer/appservice/starter-kits/python-flask-app) or [build it locally](#building-locally) by cloning the repo first. Once your app is live, you can access the `/health` endpoint to build out your cloud native application.
+
+Use the button below to deploy this same application to IBM Cloud. This option creates a deployment pipeline, complete with a hosted GitLab project and DevOps toolchain. You will have the option of deploying to either Cloud Foundry or a Kubernetes cluster. [IBM Cloud DevOps](https://www.ibm.com/cloud/devops) services provide toolchains as a set of tool integrations that support development, deployment, and operations tasks inside IBM Cloud. 
+<p align="center">
+    <a href="https://cloud.ibm.com/developer/appservice/starter-kits/python-flask-app">
+    <img src="https://cloud.ibm.com/devops/setup/deploy/button_x2.png" alt="Deploy to IBM Cloud">
+    </a>
+</p>
+### Building locally
+To get started building this application locally, you can either run the application natively or use the [IBM Cloud Developer Tools](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started) for containerization and easy deployment to IBM Cloud.
+#### Native application development
+Native application development was covered in step 4 above when you installed and ran the app. Your server is running at: `http://localhost:3000/` in your browser.
+There are two different options for debugging a Flask project:
+1. Run `python manage.py runserver` to start a native Flask development server. This comes with the Werkzeug stack-trace debugger, which will present runtime failure stack-traces in-browser with the ability to inspect objects at any point in the trace. For more information, see [Werkzeug documentation](http://werkzeug.pocoo.org/).
+
+2. Run `python manage.py debug` to run a Flask development server with debug exposed, but the native debugger/reloader turned off. This grants access for an IDE to attach itself to the process (that is, in PyCharm, use `Run` -> `Attach to Local Process`).
+You can also verify the state of your locally running application using the Selenium UI test script included in the `scripts` directory.
+> **Note for Windows users:** `gunicorn` is not supported on Windows. You can start the server with `python manage.py run` on your local machine or build and start the Dockerfile.
+
+#### IBM Cloud Developer Tools
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 # Node.js getting started application
 The Getting Started tutorial for Node.js uses this sample application to provide you with a sample workflow for working with any Node.js app on IBM Cloud or in IBM Cloud Private; you set up a development environment, deploy an app locally and on the cloud, and then integrate a IBM Cloud database service in your app.
 
