@@ -47,15 +47,15 @@ We did a survey among our circle of friends to see what they look for in an onli
 * Can be **integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture**.
 
 ## Salient Features
-* SAFE Application UI is both desktop and UI compatible.<br>
-* Allows User to browse and select a video file.<br>
-* Allows User to select a language in which the output is desired.<br>
-* Post request submission, video is then played in selected language with 80 to 90% accuracy.<br>
+* SAFE Application UI is **both desktop and UI compatible**.<br>
+* Allows User to **browse and select a video file**.<br>
+* Allows User to **select a language in which the output is desired**.<br>
+* Post request submission, **video is then played in selected language with 80 to 90% accuracy**.<br>
 
 # How it works
 
-SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
-This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
+SAFE does this by **using Google APIs – speech to text and text to speech**, which is powered by Google’s unmatched number of training data available through Google platform.
+This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
 
 # Diagram
 
