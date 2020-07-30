@@ -48,10 +48,9 @@ We did a survey among our circle of friends to see what they look for in an onli
 
 ## Salient Features
 * SAFE Application UI is both desktop and UI compatible.<br>
-* User must browse and select a video file.<br>
-* User must select the language in which the output is desired.<br>
-* User submits the request.<br>
-* Video is then played in the selected language with 80 to 90% accuracy.<br>
+* Allows User to browse and select a video file.<br>
+* Allows User to select a language in which the output is desired.<br>
+* Post request submission, video is then played in selected language with 80 to 90% accuracy.<br>
 
 # How it works
 
