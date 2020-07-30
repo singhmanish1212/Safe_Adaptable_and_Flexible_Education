@@ -19,7 +19,9 @@ Getting started<br>
 Resources<br>
 License<br>
 
-<h1 style="font-size:15px;">What is the problem?</h1><br>
+<h1 style="font-size:15px;">Overview</h1><br>
+
+<h1 style="font-size:10px;">What is the problem?</h1><br>
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
 **“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
