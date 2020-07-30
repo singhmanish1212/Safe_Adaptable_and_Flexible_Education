@@ -4,10 +4,10 @@ This solution starter was created by technologists from Cognizant as part of IBM
 
 **#Authors**<br>
 
-Amit Aman,<br>
-Gaurang Sharma,<br>
-Manish Singh,<br>
-J,Shree Krishna Priya <br>
+Amit Aman<br>
+Gaurang Sharma<br>
+Manish Singh<br>
+J,Shree Krishna Priya<br>
 Mudita Bhatia
 
 **#Contents**<br>
