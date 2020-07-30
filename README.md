@@ -21,7 +21,7 @@ License<br>
 
 <h1 style="font-size:15px;">Overview</h1><br>
 
-<h1 style="font-size:10px;">What is the problem?</h1><br>
+<h1 style="font-size:5px;">What is the problem?</h1><br>
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
 **“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
@@ -41,42 +41,29 @@ SAFE Application UI is both desktop and UI compatible.<br>User must browse and s
 **Mobile, web, and cloud services enable rapid deployment of applications that can empower cooperation in the community. **Watson Assistant is a service on IBM Cloud that allows you to build, train, and deploy conversational interactions into any application, device, or channel.
 Creating a chatbot using Watson Assistant can help you address the issues that your users may face while trying to gather the necessary information. Embedding location/routing services (like HERE) can enhance such applications, giving optimum guidance so that they are outside of their isolation location for the minimum amount of time.**
 
-**#The Idea**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">The Idea</h1><br>
 We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
 **A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
 SAFE is a bridge between the Learners and online learning platform.<br> Overcomes language barrier instantly.<br> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
 
-**How it works**<br>
-
-**---------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">How it works</h1><br>
 SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
 This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
 
-**Diagram**<br>
-
-**----------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">Diagram</h1><br>
 **paste architecture diagram here**
 
-**Documents**<br>
-
-**----------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+<h1 style="font-size:15px;">Documents</h1><br>
 **to be updated**<br>
 Trusted sources for COVID-19 Information:<br>CDC COVID-19 FAQ<br>WHO COVID-19 page<br>Johns Hopkins University Coronavirus (includes tracking map)<br>National Foundation for Infectious Diseases
 
-**Technology**<br>
-
-**------------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">Technology</h1><br>
 **to be updated**<br>
 IBM Cloud Services<br>Google API
 
 **How-to**<br>
+<h1 style="font-size:15px;">Technology</h1><br>
 **to be updated**<br>
 Create a machine learning powered web app to answer questions
 Learning path: Getting started with Watson Assistant
@@ -101,9 +88,7 @@ HERE Maps
 HERE Routing
 Integrate interactive maps and location features into your application
 
-**Getting started**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+<h1 style="font-size:15px;">Getting started</h1><br>
 
 **to be updated**<br>
 **Prerequisites**<br>
@@ -187,10 +172,7 @@ Android only: npm run android
 Note: Your Android Studio needs to have the Android 9 (Pie) SDK and a Pie API Level 28 virtual device
 With the application running in the simulator/emulator, you should be able to navigate through the various screens:
  
-**Resources**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">Resources</h1><br>
 **to be updated**<br>
 IBM Cloud
 Watson Assistant
@@ -202,27 +184,17 @@ IBM Blockchain for Developers
 License
 This solution starter is made available under the Apache 2 License.
 
-**Licenses**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
+<h1 style="font-size:15px;">Licenses</h1><br>
 **to be updated**<br>
 
-**Technicality Behind**<br>
+<h1 style="font-size:15px;">Technicality Behind</h1><br>
+**to be updated**<br>
 
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
 
+<h1 style="font-size:15px;">Known Issues</h1><br>
 **to be updated**
 
-**Known Issues**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-
-**to be updated**
-
-**Upcoming Features**<br>
-
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+<h1 style="font-size:15px;">Upcoming Features</h1><br>
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
 SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
