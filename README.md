@@ -22,7 +22,6 @@
 11. Upcoming Features
 
 # Overview 
-require "1.Overview"
 
 ## What is the problem?
 
