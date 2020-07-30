@@ -1,9 +1,13 @@
 **#Community collaboration in the context of COVID-19**<br>
 
-*This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.
+This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.
 
 **#Authors**<br>
-*Amit Aman; Gaurang Sharma; Manish Singh; J,Shree Krishna Priya; Mudita Bhatia
+> Amit Aman,<br>
+> Gaurang Sharma,<br>
+> Manish Singh,<br>
+> J,Shree Krishna Priya <br>
+> Mudita Bhatia
 
 **#Contents**<br>
 *Overview <br>
