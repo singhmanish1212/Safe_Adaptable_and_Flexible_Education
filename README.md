@@ -10,15 +10,15 @@ J,Shree Krishna Priya <br>
 Mudita Bhatia
 
 **#Contents**<br>
-*Overview <br>
-*The Idea <br>
-*How it works<br>
-*Diagrams<br>
-*Documents<br>
-*Technology<br>
-*Getting started<br>
-*Resources<br>
-*License<br>
+Overview <br>
+The Idea <br>
+How it works<br>
+Diagrams<br>
+Documents<br>
+Technology<br>
+Getting started<br>
+Resources<br>
+License<br>
 
 **#OverView**
 **--------------------------------------------------------------------------------------------------------------------------------------------**
