@@ -8,18 +8,18 @@ Manish Singh<br>
 J,Shree Krishna Priya<br>
 Mudita Bhatia
 
-<h1 style="font-size:25px;">Contents</h1><br>
->> Overview <br>
->> The Idea <br>
->> How it works<br>
->> Diagrams<br>
->> Documents<br>
->> Technology<br>
->> Getting started<br>
->> Resources<br>
->> License<br>
+<h1 style="font-size:25px;">Contents</h1>
+> Overview <br>
+> The Idea <br>
+> How it works<br>
+> Diagrams<br>
+> Documents<br>
+> Technology<br>
+> Getting started<br>
+> Resources<br>
+> License<br>
 
-<h1 style="font-size:15px;">Overview</h1><br>
+<h1 style="font-size:15px;">Overview</h1>
 
 <h1 style="font-size:5px;">What is the problem?</h1><br>
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
