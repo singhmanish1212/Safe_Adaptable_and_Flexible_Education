@@ -1,5 +1,4 @@
 <h1 style="font-size:35px;">Community collaboration in the context of COVID-19</h1>
-
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 <h1 style="font-size:25px;">Authors</h1><br>
@@ -20,12 +19,7 @@ Getting started<br>
 Resources<br>
 License<br>
 
-<h1 style="font-size:25px;">OverView</h1><br>
-
-**-----------------------------------------------------------------------------------------------------------------------------------------------------**<br>
-
-**What is the problem?**<br>
-
+<h1 style="font-size:15px;">What is the problem?</h1><br>
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
 **“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
@@ -34,12 +28,11 @@ COVID -19 has presented us with multiple opportunities to explore the technology
 **With SAFE we break the language barriers**. <br>
 **Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
 
-**Salient Features**<br>
-
+<h1 style="font-size:15px;">Salient Features</h1><br>
 SAFE Application UI is both desktop and UI compatible.<br>User must browse and select a video file.<br>User must select the language in which the output is desired.
 <br>User submits the request.<br>Video is then played in the selected language with 80 to 90% accuracy.<br>
 
-**How can technology help?**<br>
+<h1 style="font-size:15px;">How can technology help?</h1><br>
 
 **to be updated**<br>
 
