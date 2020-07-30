@@ -61,7 +61,7 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Diagram
 
-**paste architecture diagram here**
+![Test Image 7](https://github.com/tograh/testrepository/master/3DTest.png)
 
 # Documents
 
