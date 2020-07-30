@@ -22,7 +22,7 @@ print('The line no 18 executed.')
 index=1
 while True:
     print(os.path.exists("views/assets/video/output"+str(index)+".mp4"))
-    if os.path.exists("views/assets/video/output"+str(index)+".mp4"):
+    if os.path.exists("views/assets/video/output"+str(index)+".mp4") or os.path.exists("views/assets/video/output"+str(index)+".mkv"):
         os.remove("views/assets/video/output"+str(index)+".mp4")
         index=index+1
     else:
@@ -209,7 +209,7 @@ os.system("mpg3211 converted_audio.mp3")
 
 #Merging the Converted audio file and video file
 video = mp.VideoFileClip(video_file_name)
-outputPath = os.path.abspath('views/assets/video/' + 'output' + str(index) + '.mp4')
+outputPath = os.path.abspath('views/assets/video/output' + str(index) + '.mp4')
 print('The line no 213 executed.',outputPath)
 video.write_videofile(outputPath, audio="converted_audio.mp3")
 
