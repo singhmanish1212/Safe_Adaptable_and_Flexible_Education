@@ -1,28 +1,236 @@
+# SAFE - Safe Adaptable and Flexible Education
+## This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
-#Quick Intro to SAFE
-> SAFE is a bridge between the Learners and online learning platform. 
-> Overcomes language barrier instantly.
-> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture. 
+# Authors
+* J.Shree Krishna Priya<br>
+* Amit Aman<br>
+* Gaurang Sharma<br>
+* Manish Singh<br>
+* Mudita Bhatia
 
-#SAFE OverView
->SAFE Application UI is both desktop and UI compatible.
->User must browse and select a video file. 
->User must select the language in which the output is desired. 
->User submits the request.
->Video is then played in the selected language with 80 to 90% accuracy. 
+# Contents
+1. Overview <br>
+2. The Idea <br>
+3. How it works<br>
+4. Diagrams<br>
+5. Documents<br>
+6. Technology<br>
+7. Getting started<br>
+8. Resources<br>
+9. License<br>
 
-#Technicality Behind
+# Overview
 
-#Known Issues
+## What is the problem?
 
-#Upcoming Features
->Integration of AI
->Inetegration of other skilled activities to keep the Learner engaged during breaks.
->Add features for differently skilled individuals. 
+**COVID -19** has **presented us** with **multiple opportunities to explore the technology arena**, especially to **continue education**.<br> Being in a state of **indefinite lock down and social distancing** to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
+**“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
-### Frontend UI
+**Most of the courses and educational videos** are provided **in English and in selective international languages**. Many people find it **difficult to pursue courses to completion.** With constant need to upgrade professional skills on various skill sets, people find it **difficult to pursue courses to completion!!!**.<br> 
 
-### Frontend UI Development
+**With SAFE we break the language barriers. Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
+
+## Salient Features
+SAFE Application UI is both desktop and UI compatible.<br>User must browse and select a video file.<br>User must select the language in which the output is desired.
+<br>User submits the request.<br>Video is then played in the selected language with 80 to 90% accuracy.<br>
+
+## How can technology help?
+
+**to be updated**<br>
+
+**Mobile, web, and cloud services enable rapid deployment of applications that can empower cooperation in the community. **Watson Assistant is a service on IBM Cloud that allows you to build, train, and deploy conversational interactions into any application, device, or channel.
+Creating a chatbot using Watson Assistant can help you address the issues that your users may face while trying to gather the necessary information. Embedding location/routing services (like HERE) can enhance such applications, giving optimum guidance so that they are outside of their isolation location for the minimum amount of time.**
+
+# The Idea
+We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
+
+**A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
+SAFE is a bridge between the Learners and online learning platform.<br> Overcomes language barrier instantly.<br> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+
+# How it works
+SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
+This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
+
+# Diagram
+
+**paste architecture diagram here**
+
+# Documents
+
+**to be updated**<br>
+Trusted sources for COVID-19 Information:<br>CDC COVID-19 FAQ<br>WHO COVID-19 page<br>Johns Hopkins University Coronavirus (includes tracking map)<br>National Foundation for Infectious Diseases
+
+# Technology
+**to be updated**<br>
+IBM Cloud Services<br>Google API
+
+**How-to**<br>
+
+# Technology
+
+**to be updated**<br>
+Create a machine learning powered web app to answer questions
+Learning path: Getting started with Watson Assistant
+Train a speech-to-text model
+Enhance customer helpdesks with Smart Document Understanding using webhooks in Watson Assistant
+Watson Voice Agent
+Getting Started with Watson Voice Agent
+Making Programmatic Calls from Watson Assistant
+IBM Cloud Voice Agent with Twilio
+Build a Chatbot For Your Mobile App
+Build a cross-platform mobile app using React Native
+Building successful mobile apps article series
+Chat Bot Slack Integration
+Chat Bot Slack deployment
+Node-RED Slack integration
+
+**HERE Technologies**<br>
+**to be updated**<br>
+
+HERE.com API Key
+HERE Maps
+HERE Routing
+Integrate interactive maps and location features into your application
+
+<h1 style="font-size:15px;">Getting started</h1><br>
+
+**to be updated**<br>
+**Prerequisites**<br>
+Register for an IBM Cloud account.
+Install and configure IBM Cloud CLI.
+Register for a HERE account.
+Install React Native CLI dependencies. See the React Native documentation for the exact steps and requirements based on your Operating System and Target OS. For example: 
+iOS on macOS 
+Node.js
+Watchman
+Xcode
+CocoaPods
+Android on Windows 
+Node.js
+Python 2
+Java Development Kit
+Android Studio - add Android 9 (Pie) SDK & configure ANDROID_HOME
+Create an Android Virtual Device (AVD) - with Pie image (API Level 28)
+Clone the repository.
+**Steps**
+Set up an instance of Watson Assistant.
+Provision a CouchDB instance using Cloudant.
+Generate an API Key from the HERE Developer Portal.
+Run the server.
+**Run the mobile application.**
+**to be updated**
+1. Set up an instance of Watson Assistant
+Log in to IBM Cloud and provision a Watson Assistant instance.
+Provision an instance of Watson Assistant from the IBM Cloud catalog.
+Launch the Watson Assistant service.
+Create an Assistant.
+Add a dialog skill to the Assistant by importing the starter-kit-cooperation-dialog-skill.json file.
+Go back to All Assistants page, open Settings from the action menu ( ⋮ ) and click on API Details.
+Note the Assistant ID, API Key, and Assistant URL. For Assistant URL, make note of the base URL/domain (e.g., https://api.us-south.assistant.watson.cloud.ibm.com or https://api.eu-gb.assistant.watson.cloud.ibm.com) and not the full directory/path. You will need all three of these values in Step 4 below.
+Go to Preview Link to get a link to test and verify the dialog skill.
+2: Provision a CouchDB instance using Cloudant
+Log into the IBM Cloud and provision a CouchDB instance using Cloudant.
+From the catalog, select Databases and then the Cloudant panel.
+Once selected, you can choose your Cloudant plan -- there is a free tier for simple testing that is sufficient to run this CIR example. You should choose an appropriate region, give the service a name, and it is recommended you choose Use only IAM under Available authentication methods. You can leave the other settings with their defaults. Click the blue Create button when ready.
+Once your Cloudant instance has been created, you need to create a service credential that the CIR API Server can use to communicate with it. By selecting your running Cloudant instance, you can choose Service credentials from the left-hand menu. Create a new service credential and give it a name (it doesn't matter what you call it).
+Once created, you can display the credentials by selecting view service credentials, and then copy the credential, so you are ready to paste it into the code of the API server in Step 4.
+3. Generate an API Key from the HERE Developer Portal
+The application uses HERE Location Services for maps, searching, and routing.
+To access these services, you'll need an API key. Follow the instructions outlined in the HERE Developer Portal to generate a JavaScript API key.
+4. Run the server
+To set up and launch the server application:
+Go to the starter-kit/server-app directory of the cloned repo.
+Copy the .env.example file in the starter-kit/server-app directory, and create a new file named .env.
+Edit the newly created .env file and update the ASSISTANT_URL, ASSISTANT_ID, and ASSISTANT_IAM_APIKEY with the values from the dialog skill's API Detail page in Watson Assistant, from Step 1. Also, update the CLOUDANT_ID and CLOUDANT_IAM_APIKEY with the values from the service credential you created in Step 2. (Note that the username from the credential is what should be used for the CLOUDANT_ID.)
+Edit the name value in the manifest.yml file to your application name (for example, my-app-name).
+From a terminal: 
+Go to the starter-kit/server-app directory of the cloned repo.
+Install the dependencies: npm install.
+Launch the server application locally or deploy to IBM Cloud: 
+To run locally: 
+Start the application: npm start.
+The server can be accessed at http://localhost:3000.
+To deploy to IBM Cloud: 
+Log in to your IBM Cloud account using the IBM Cloud CLI: ibmcloud login.
+Target a Cloud Foundry org and space: ibmcloud target --cf.
+Push the app to IBM Cloud: ibmcloud app push.
+The server can be accessed at a URL using the name given in the manifest.yml file (for example, https://my-app-name.bluemix.net).
+5. Run the mobile application
+To run the mobile application (using the Xcode iOS Simulator or Android Studio Emulator):
+Go to the starter-kit/mobile-app directory of the cloned repo.
+Copy the .env.example file in the starter-kit/mobile-app directory, and create a file named .env.
+Edit the newly created .env file: 
+Update the STARTER_KIT_SERVER_URL with the URL to the server app launched in the previous step. 
+Note: If you are running the server locally and testing with the Android Emulator set the STARTER_KIT_SERVER_URL using the local machine's URL (e.g., http://10.0.2.2:3000) instead of localhost
+Update the HERE_APIKEY with the API key generated in the HERE Developer Portal.
+From a terminal: 
+Go to the starter-kit/mobile-app directory.
+Install the dependencies: npm install.
+iOS only: Go to the ios directory: cd ios.
+iOS only: Install pod dependencies: pod install.
+iOS only: Return to the mobile-app directory: cd ../.
+Launch the app in the simulator/emulator: 
+iOS only: npm run ios 
+Note: You should be running at least iOS 13.0. The first time you launch the simulator, you should ensure that you set a Location in the Features menu.
+Android only: npm run android 
+Note: Your Android Studio needs to have the Android 9 (Pie) SDK and a Pie API Level 28 virtual device
+With the application running in the simulator/emulator, you should be able to navigate through the various screens:
+ 
+# Resources
+**to be updated**<br>
+IBM Cloud
+Watson Assistant
+IBM Cloudant
+HERE Location Services
+Node.js
+React Native
+IBM Blockchain for Developers
+License
+This solution starter is made available under the Apache 2 License.
+
+# Licenses
+**to be updated**<br>
+
+# Technicality Behind
+**to be updated**<br>
+
+# Known Issues
+**to be updated**
+
+<h1 style="font-size:15px;">Upcoming Features</h1><br>
+While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
+We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
+SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
+It will also be able to **suggest exercises and physical activity**, if the user is taking the course for more than particular time.
+
+SAFE is a **universal, all-inclusive platform, breaking the language barrier** ready to take the education system by storm. 
+**Because, for team SAFE, All Lives Matter!!**
+
+**to be updated**
+*>Integration of AI*>Inetegration of other skilled activities to keep the Learner engaged during breaks.*>Add features for differently skilled individuals.
+
+
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**Revalidate if the below content needs to be retained**
+
+
+**Frontend UI**
+**to be updated**
+
+**Frontend UI Development**
+**to be updated**
 1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`Yarn`](https://classic.yarnpkg.com/en/docs/install/).
 2. In a new terminal, change to the `frontend` directory from the project root and install the dependencies:
     ```bash 
