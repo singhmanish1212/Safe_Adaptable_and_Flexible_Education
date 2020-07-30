@@ -22,10 +22,11 @@
 # Overview
 
 **What is the problem?**<br>
+
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
 **“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
-**Most of the courses and educational videos** are provided **in English and in selective international languages**. Many people find it **difficult to pursue courses to completion.** It’s ok for some time. However, with a constant need to upgrade professional skills on various skill sets, people find it **difficult to pursue courses to completion**.<br> 
+**Most of the courses and educational videos** are provided **in English and in selective international languages**. Many people find it **difficult to pursue courses to completion.** With constant need to upgrade professional skills on various skill sets, people find it **difficult to pursue courses to completion**.<br> 
 
 **With SAFE we break the language barriers**. <br>
 **Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
