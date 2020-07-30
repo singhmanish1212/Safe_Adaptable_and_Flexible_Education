@@ -2,14 +2,14 @@
 
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
-<h1 style="font-size:30px;">Authors</h1><br>
+<h1 style="font-size:25px;">Authors</h1><br>
 Amit Aman<br>
 Gaurang Sharma<br>
 Manish Singh<br>
 J,Shree Krishna Priya<br>
 Mudita Bhatia
 
-<h1 style="font-size:30px;">Contents</h1><br>
+<h1 style="font-size:25px;">Contents</h1><br>
 Overview <br>
 The Idea <br>
 How it works<br>
@@ -20,7 +20,7 @@ Getting started<br>
 Resources<br>
 License<br>
 
-**#OverView**<br>
+<h1 style="font-size:25px;">OverView</h1><br>
 
 **-----------------------------------------------------------------------------------------------------------------------------------------------------**<br>
 
