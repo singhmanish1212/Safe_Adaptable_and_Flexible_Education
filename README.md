@@ -42,9 +42,9 @@ Creating a chatbot using Watson Assistant can help you address the issues that y
 We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
 **A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
-* SAFE is a **bridge between the Learners and online learning platform.<br>
-* Overcomes language barrier instantly.<br>
-* Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+* SAFE is a **bridge between the Learners and online learning platform.**<br>
+* **Overcomes language barrier instantly.**<br>
+* Can be **integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture**.
 
 ## Salient Features
 * SAFE Application UI is both desktop and UI compatible.<br>
