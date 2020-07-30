@@ -1,5 +1,5 @@
 # SAFE - Safe Adaptable and Flexible Education
-This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
+###### This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 # Authors
 * J.Shree Krishna Priya<br>
@@ -8,7 +8,7 @@ This solution has been brainstomred and created by technologists from Cognizant 
 * Manish Singh<br>
 * Mudita Bhatia
 
-<h1 style="font-size:25px;">Contents</h1>
+# Contents
 1. Overview <br>
 2. The Idea <br>
 3. How it works<br>
@@ -19,7 +19,7 @@ This solution has been brainstomred and created by technologists from Cognizant 
 8. Resources<br>
 9. License<br>
 
-<h1 style="font-size:15px;">Overview</h1>
+# Overview
 
 <h1 style="font-size:5px;">What is the problem?</h1><br>
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
