@@ -28,7 +28,7 @@
     ```bash 
     cd frontend
     yarn install
-    ```
+    ```  
 3. Launch the frontend application:  
     **Compiles and hot-reloads for development**
     ```bash
