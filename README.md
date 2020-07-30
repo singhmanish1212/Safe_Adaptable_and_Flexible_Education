@@ -1,5 +1,4 @@
-**#Community collaboration in the context of COVID-19**<br>
-<h1 style="font-size:60px;">**#Community collaboration in the context of COVID-19**</h1>
+<h1 style="font-size:50px;">Community collaboration in the context of COVID-19</h1>
 
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.
 
