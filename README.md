@@ -17,7 +17,7 @@
 *License
 
 **#OverView**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------**
+**--------------------------------------------------------------------------------------------------------------------------------------------**
 **What is the problem?**
 
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to continue education. Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to ensure that the education reaches all, because 
