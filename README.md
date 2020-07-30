@@ -2,22 +2,22 @@
 ###### This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 # Authors
-* J.Shree Krishna Priya<br>
-* Amit Aman<br>
-* Gaurang Sharma<br>
-* Manish Singh<br>
-* Mudita Bhatia
+## * J.Shree Krishna Priya<br>
+## * Amit Aman<br>
+## * Gaurang Sharma<br>
+## * Manish Singh<br>
+## * Mudita Bhatia
 
 # Contents
-1. Overview <br>
-2. The Idea <br>
-3. How it works<br>
-4. Diagrams<br>
-5. Documents<br>
-6. Technology<br>
-7. Getting started<br>
-8. Resources<br>
-9. License<br>
+## 1. Overview <br>
+## 2. The Idea <br>
+## 3. How it works<br>
+## 4. Diagrams<br>
+## 5. Documents<br>
+## 6. Technology<br>
+## 7. Getting started<br>
+## 8. Resources<br>
+## 9. License<br>
 
 # Overview
 
