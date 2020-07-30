@@ -9,17 +9,19 @@
 * Mudita Bhatia
 
 # Contents
-1. Overview <br>
-2. The Idea <br>
-3. How it works<br>
-4. Diagrams<br>
-5. Documents<br>
-6. Technology<br>
-7. Getting started<br>
-8. Resources<br>
-9. License<br>
+1. [Overview](#Overview)<br>
+2. [The Idea](#The-Idea)<br>
+3. [How it works](#How-it-works)<br>
+4. [Diagrams](#Diagrams)<br>
+5. [Documents](#Documents)<br>
+6. [Technology](#Technology)<br>
+7. [Getting started](#Getting-started)<br>
+8. [Resources](#Resources)<br>
+9. [License](#License)<br>
+10. [Known Issues](#Known-Issues)<br>
+11. [Upcoming Features](#Upcoming-Features)<br>
 
-# Overview
+# Overview 
 
 ## What is the problem?
 
@@ -30,13 +32,10 @@
 
 **With SAFE we break the language barriers. Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
 
-## Salient Features
-SAFE Application UI is both desktop and UI compatible.<br>User must browse and select a video file.<br>User must select the language in which the output is desired.
-<br>User submits the request.<br>Video is then played in the selected language with 80 to 90% accuracy.<br>
-
 ## How can technology help?
 
 **to be updated**<br>
+**do we need this section**
 
 **Mobile, web, and cloud services enable rapid deployment of applications that can empower cooperation in the community. **Watson Assistant is a service on IBM Cloud that allows you to build, train, and deploy conversational interactions into any application, device, or channel.
 Creating a chatbot using Watson Assistant can help you address the issues that your users may face while trying to gather the necessary information. Embedding location/routing services (like HERE) can enhance such applications, giving optimum guidance so that they are outside of their isolation location for the minimum amount of time.**
@@ -45,15 +44,24 @@ Creating a chatbot using Watson Assistant can help you address the issues that y
 We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
 **A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
-SAFE is a bridge between the Learners and online learning platform.<br> Overcomes language barrier instantly.<br> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+* SAFE is a **bridge between the Learners and online learning platform.**<br>
+* **Overcomes language barrier instantly.**<br>
+* Can be **integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture**.
+
+## Salient Features
+* SAFE Application UI is **both desktop and UI compatible**.<br>
+* Allows User to **browse and select a video file**.<br>
+* Allows User to **select a language in which the output is desired**.<br>
+* Post request submission, **video is then played in selected language with 80 to 90% accuracy**.<br>
 
 # How it works
-SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
-This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
+
+SAFE does this by **using Google APIs – speech to text and text to speech**, which is powered by Google’s unmatched number of training data available through Google platform.
+This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
 
 # Diagram
+![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
 
-**paste architecture diagram here**
 
 # Documents
 
@@ -66,33 +74,7 @@ IBM Cloud Services<br>Google API
 
 **How-to**<br>
 
-# Technology
-
-**to be updated**<br>
-Create a machine learning powered web app to answer questions
-Learning path: Getting started with Watson Assistant
-Train a speech-to-text model
-Enhance customer helpdesks with Smart Document Understanding using webhooks in Watson Assistant
-Watson Voice Agent
-Getting Started with Watson Voice Agent
-Making Programmatic Calls from Watson Assistant
-IBM Cloud Voice Agent with Twilio
-Build a Chatbot For Your Mobile App
-Build a cross-platform mobile app using React Native
-Building successful mobile apps article series
-Chat Bot Slack Integration
-Chat Bot Slack deployment
-Node-RED Slack integration
-
-**HERE Technologies**<br>
-**to be updated**<br>
-
-HERE.com API Key
-HERE Maps
-HERE Routing
-Integrate interactive maps and location features into your application
-
-<h1 style="font-size:15px;">Getting started</h1><br>
+# Getting started
 
 **to be updated**<br>
 **Prerequisites**<br>
@@ -179,25 +161,19 @@ With the application running in the simulator/emulator, you should be able to na
 # Resources
 **to be updated**<br>
 IBM Cloud
-Watson Assistant
 IBM Cloudant
-HERE Location Services
 Node.js
 React Native
-IBM Blockchain for Developers
 License
 This solution starter is made available under the Apache 2 License.
 
 # Licenses
 **to be updated**<br>
 
-# Technicality Behind
-**to be updated**<br>
-
 # Known Issues
 **to be updated**
 
-<h1 style="font-size:15px;">Upcoming Features</h1><br>
+# Upcoming Features
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
 SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
@@ -231,26 +207,21 @@ SAFE is a **universal, all-inclusive platform, breaking the language barrier** r
 
 **Frontend UI Development**
 **to be updated**
-1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`Yarn`](https://classic.yarnpkg.com/en/docs/install/).
+1. If you have not done so already, install [`Node.js`](https://nodejs.org) and [`npm`](https://www.npmjs.com/get-npm).
 2. In a new terminal, change to the `frontend` directory from the project root and install the dependencies:
     ```bash 
     cd frontend
-    yarn install
+    npm install
+    npm update
     ```  
 3. Launch the frontend application:  
     **Compiles and hot-reloads for development**
     ```bash
-    yarn serve
+    cd code_for_call2020
+    npm start
     ```
-    **Compiles and minifies for production**
-    ```bash
-    yarn build
-   ```
-    **Lints and fixes files**
-    ```bash
-    yarn lint
-    ```
-The frontend UI is now running at `http://localhost:8080/` in your browser. 
+ 
+The frontend UI is now running at `http://localhost:3000/` in your browser. 
 
 ## 5. Language Translator Extension
 
@@ -302,12 +273,6 @@ You'll need a [IBM Cloud account](https://console.ng.bluemix.net/registration/),
 **IBM Cloud Kubernetes Service**: [README-kubernetes.md](README-kubernetes.md)
 
 **IBM Cloud Private**: The starter application for IBM Cloud Private guides you through a similar process. However, instead of hosting both your service and application in the same cloud environment, you use a user-provided service. This guide shows you how to deploy your application to IBM Cloud Private and bind it to a Cloudant Database in IBM Cloud. For the complete procedure, see [Working with user-provided services and the Node.js starter app](https://www.ibm.com/support/knowledgecenter/SSBS6K_2.1.0/cloud_foundry/buildpacks/buildpacks_using_nodejsapp.html).
-
-
-
-
-
-
 
 
 
