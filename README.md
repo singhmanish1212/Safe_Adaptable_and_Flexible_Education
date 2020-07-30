@@ -1,4 +1,5 @@
 **#Community collaboration in the context of COVID-19**
+
 *This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.
 
 **#Authors**
@@ -16,7 +17,7 @@
 *License
 
 **#OverView**
-**-----------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**
 **What is the problem?**
 
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to continue education. Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to ensure that the education reaches all, because 
