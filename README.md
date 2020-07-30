@@ -9,7 +9,7 @@
 * Mudita Bhatia
 
 # Contents
-1. Overview <br>[Overview](#Overview)
+1. [Overview](#Overview)<br>
 2. The Idea <br>
 3. How it works<br>
 4. Diagrams<br>
