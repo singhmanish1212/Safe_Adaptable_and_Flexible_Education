@@ -195,13 +195,15 @@ new_audio_file = myobj.save("converted_audio.mp3")
 
 # Playing the converted file
 os.system("mpg3211 converted_audio.mp3")
+if os.path.exists("output.mp4."):
+    os.remove("output.mp4")
 
- 
+print('The line no 202 executed.',outputPath)
 
 
 #Merging the Converted audio file and video file
 video = mp.VideoFileClip(video_file_name)
-outputPath = os.path.abspath('views/assets/video/' + 'output17.mp4')
+outputPath = os.path.abspath('views/assets/video/' + 'output.mp4')
 print('The line no 205 executed.',outputPath)
 video.write_videofile(outputPath, audio="converted_audio.mp3")
 

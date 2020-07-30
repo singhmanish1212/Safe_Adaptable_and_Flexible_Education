@@ -202,11 +202,11 @@
       var interval = null;
       interval= setInterval(searchVideo, 3000);
       function searchVideo(){   $.ajax({
-          url:'assets/video/output17.mp4',
+          url:'assets/video/output.mp4',
           type:'HEAD',
             error: function()
           {
-            //file not exists
+            console.log("NO");
           },
             success: function()
           {
@@ -214,7 +214,7 @@
             console.log("yes");
             
             //$(".video-player").get(0).pause();
-            setTimeout(function(){  $(".video-player").attr('src', 'assets/video/output17.mp4');
+            setTimeout(function(){  $(".video-player").attr('src', 'assets/video/output.mp4');
             $(".video-player").get(0).load();
             $(".video-player").get(0).play();
              }, 50000);
