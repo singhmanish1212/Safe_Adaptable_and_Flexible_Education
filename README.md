@@ -18,6 +18,8 @@
 7. Getting started<br>
 8. Resources<br>
 9. License<br>
+10. Known Issues
+11. Upcoming Features
 
 # Overview
 
@@ -72,33 +74,7 @@ IBM Cloud Services<br>Google API
 
 **How-to**<br>
 
-# Technology
-
-**to be updated**<br>
-Create a machine learning powered web app to answer questions
-Learning path: Getting started with Watson Assistant
-Train a speech-to-text model
-Enhance customer helpdesks with Smart Document Understanding using webhooks in Watson Assistant
-Watson Voice Agent
-Getting Started with Watson Voice Agent
-Making Programmatic Calls from Watson Assistant
-IBM Cloud Voice Agent with Twilio
-Build a Chatbot For Your Mobile App
-Build a cross-platform mobile app using React Native
-Building successful mobile apps article series
-Chat Bot Slack Integration
-Chat Bot Slack deployment
-Node-RED Slack integration
-
-**HERE Technologies**<br>
-**to be updated**<br>
-
-HERE.com API Key
-HERE Maps
-HERE Routing
-Integrate interactive maps and location features into your application
-
-<h1 style="font-size:15px;">Getting started</h1><br>
+# Getting started
 
 **to be updated**<br>
 **Prerequisites**<br>
@@ -197,13 +173,10 @@ This solution starter is made available under the Apache 2 License.
 # Licenses
 **to be updated**<br>
 
-# Technicality Behind
-**to be updated**<br>
-
 # Known Issues
 **to be updated**
 
-<h1 style="font-size:15px;">Upcoming Features</h1><br>
+# Upcoming Features
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
 SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
