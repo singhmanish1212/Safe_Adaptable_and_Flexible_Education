@@ -3,6 +3,7 @@
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.
 
 **#Authors**<br>
+
 Amit Aman,<br>
 Gaurang Sharma,<br>
 Manish Singh,<br>
@@ -10,6 +11,7 @@ J,Shree Krishna Priya <br>
 Mudita Bhatia
 
 **#Contents**<br>
+
 Overview <br>
 The Idea <br>
 How it works<br>
@@ -21,7 +23,9 @@ Resources<br>
 License<br>
 
 **#OverView**<br>
+
 **-----------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
 **What is the problem?**<br>
 
 COVID -19 has presented us with multiple opportunities to explore the technology arena, especially to **continue education**.<br> Being in a state of indefinite lock down and social distancing to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
@@ -34,43 +38,50 @@ Most of the courses and educational videos are provided in English and in select
 SAFE Application UI is both desktop and UI compatible.<br>User must browse and select a video file.<br>User must select the language in which the output is desired.
 <br>User submits the request.<br>Video is then played in the selected language with 80 to 90% accuracy.
 
-**How can technology help?**
-**to be updated**
+**How can technology help?**<br>
+
+**to be updated**<br>
+
 **Mobile, web, and cloud services enable rapid deployment of applications that can empower cooperation in the community. **Watson Assistant is a service on IBM Cloud that allows you to build, train, and deploy conversational interactions into any application, device, or channel.
 Creating a chatbot using Watson Assistant can help you address the issues that your users may face while trying to gather the necessary information. Embedding location/routing services (like HERE) can enhance such applications, giving optimum guidance so that they are outside of their isolation location for the minimum amount of time.**
 
-**#The Idea**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**#The Idea**<br>
 
-We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."**
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
 
-**A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**
-*> SAFE is a bridge between the Learners and online learning platform.*> Overcomes language barrier instantly.*> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
-**How it works**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
+SAFE is a bridge between the Learners and online learning platform.<br> Overcomes language barrier instantly.<br> Can be integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture.
+
+**How it works**<br>
+
+**---------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
 
 SAFE does this by using Google APIs – speech to text and text to speech, which is powered by Google’s unmatched number of training data available through Google platform.
 This solution can be integrated with any learning platform or can be used as a stand-alone application, where we can upload the video or paste the URL of the video in the site and get the output video in the desired language. 
 
-**Diagram**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**Diagram**<br>
+
+**----------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
 
 **paste architecture diagram here**
 
-**Documents**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**to be updated**
-*Trusted sources for COVID-19 Information:*CDC COVID-19 FAQ*WHO COVID-19 page*Johns Hopkins University Coronavirus (includes tracking map)*National Foundation for Infectious Diseases
+**Documents**<br>
 
-**Technology**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**----------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**to be updated**<br>
+Trusted sources for COVID-19 Information:<br>CDC COVID-19 FAQ<br>WHO COVID-19 page<br>Johns Hopkins University Coronavirus (includes tracking map)<br>National Foundation for Infectious Diseases
 
-**to be updated**
-*IBM Cloud Services*Google API
+**Technology**<br>
 
-**How-to**
-**to be updated**
+**------------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**to be updated**<br>
+IBM Cloud Services<br>Google API
+
+**How-to**<br>
+**to be updated**<br>
 Create a machine learning powered web app to answer questions
 Learning path: Getting started with Watson Assistant
 Train a speech-to-text model
@@ -86,18 +97,20 @@ Chat Bot Slack Integration
 Chat Bot Slack deployment
 Node-RED Slack integration
 
-**HERE Technologies**
-**to be updated**
+**HERE Technologies**<br>
+**to be updated**<br>
+
 HERE.com API Key
 HERE Maps
 HERE Routing
 Integrate interactive maps and location features into your application
 
-**Getting started**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**Getting started**<br>
 
-**to be updated**
-**Prerequisites**
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**to be updated**<br>
+**Prerequisites**<br>
 Register for an IBM Cloud account.
 Install and configure IBM Cloud CLI.
 Register for a HERE account.
@@ -178,10 +191,11 @@ Android only: npm run android
 Note: Your Android Studio needs to have the Android 9 (Pie) SDK and a Pie API Level 28 virtual device
 With the application running in the simulator/emulator, you should be able to navigate through the various screens:
  
-**Resources**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**Resources**<br>
 
-**to be updated**
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**to be updated**<br>
 IBM Cloud
 Watson Assistant
 IBM Cloudant
@@ -192,22 +206,26 @@ IBM Blockchain for Developers
 License
 This solution starter is made available under the Apache 2 License.
 
-**Licenses**
+**Licenses**<br>
+
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**to be updated**<br>
+
+**Technicality Behind**<br>
+
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
+**to be updated**
+
+**Known Issues**<br>
+
 **--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 
 **to be updated**
 
-**Technicality Behind**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**Upcoming Features**<br>
 
-**to be updated**
-
-**Known Issues**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-
-**to be updated**
-
-**Upcoming Features**
 **--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
@@ -221,13 +239,19 @@ SAFE is a **universal, all-inclusive platform, breaking the language barrier** r
 *>Integration of AI*>Inetegration of other skilled activities to keep the Learner engaged during breaks.*>Add features for differently skilled individuals.
 
 
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
-**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+**--------------------------------------------------------------------------------------------------------------------------------------------------------**<br>
+
 **Revalidate if the below content needs to be retained**
 
 
