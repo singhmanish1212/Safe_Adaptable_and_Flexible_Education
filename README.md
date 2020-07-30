@@ -2,22 +2,22 @@
 This solution starter was created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 <h1 style="font-size:25px;">Authors</h1>
-Amit Aman<br>
-Gaurang Sharma<br>
-Manish Singh<br>
-J,Shree Krishna Priya<br>
-Mudita Bhatia
+* J.Shree Krishna Priya<br>
+* Amit Aman<br>
+* Gaurang Sharma<br>
+* Manish Singh<br>
+* Mudita Bhatia
 
 <h1 style="font-size:25px;">Contents</h1>
-> Overview <br>
-> The Idea <br>
-> How it works<br>
-> Diagrams<br>
-> Documents<br>
-> Technology<br>
-> Getting started<br>
-> Resources<br>
-> License<br>
+1. Overview <br>
+2. The Idea <br>
+3. How it works<br>
+4. Diagrams<br>
+5. Documents<br>
+6. Technology<br>
+7. Getting started<br>
+8. Resources<br>
+9. License<br>
 
 <h1 style="font-size:15px;">Overview</h1>
 
