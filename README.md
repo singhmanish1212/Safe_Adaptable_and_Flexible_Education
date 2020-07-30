@@ -31,8 +31,11 @@
 **With SAFE we break the language barriers. Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
 
 ## Salient Features
-SAFE Application UI is both desktop and UI compatible.<br>User must browse and select a video file.<br>User must select the language in which the output is desired.
-<br>User submits the request.<br>Video is then played in the selected language with 80 to 90% accuracy.<br>
+* SAFE Application UI is both desktop and UI compatible.<br>
+* User must browse and select a video file.<br>
+* User must select the language in which the output is desired.<br>
+* User submits the request.<br>
+* Video is then played in the selected language with 80 to 90% accuracy.<br>
 
 ## How can technology help?
 
