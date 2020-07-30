@@ -23,7 +23,7 @@ index=1
 while True:
     print(os.path.exists("views/assets/video/output"+str(index)+".mp4"))
     if os.path.exists("views/assets/video/output"+str(index)+".mp4"):
-        #os.remove("views/assets/video/output"+str(index)+".mp4")
+        os.remove("views/assets/video/output"+str(index)+".mp4")
         index=index+1
     else:
         print('The line no 29 executed.', index)
