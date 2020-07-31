@@ -49,7 +49,7 @@ This solution can be **integrated with any learning platform or** can be used as
 * Post request submission, **video is then downloaded and played in selected language**.<br>
 
 # Diagram
-![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
+![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFEArchitecture_v7.jpg)
 
 ## How it works internally?
 
