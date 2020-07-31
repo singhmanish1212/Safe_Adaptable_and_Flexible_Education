@@ -53,7 +53,7 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Documents
 
-1. ![Click here to read detailed application FAQ's](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
+1. ![Click here to read detailed application FAQ's](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE Application FAQ.txt)
 
 # Technology
 
