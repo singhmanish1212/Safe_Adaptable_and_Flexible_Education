@@ -15,11 +15,10 @@
 4. [Diagrams](#Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
-7. [Getting started](#Getting-started)<br>
-8. [Resources](#Resources)<br>
-9. [License](#License)<br>
-10. [Known Issues](#Known-Issues)<br>
-11. [Upcoming Features](#Upcoming-Features)<br>
+7. [Resources](#Resources)<br>
+8. [License](#License)<br>
+9. [Known Issues](#Known-Issues)<br>
+10. [Upcoming Features](#Upcoming-Features)<br>
 
 # Overview 
 
@@ -63,8 +62,6 @@ This solution can be **integrated with any learning platform or** can be used as
 
 * IBM Cloud Services
 * Google API <br>
-
-# Getting started
 
 # Resources
 
