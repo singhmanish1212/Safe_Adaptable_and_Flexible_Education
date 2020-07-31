@@ -13,7 +13,7 @@
 2. [The Idea](#The-Idea)<br>
 3. [How it works technically?](#How-it-workstechnically?)<br>
 4. [How SAFE application works?](#How-SAFE-application-works?)<br>
-4. [Architecture Diagrams](#Architecture Diagrams)<br>
+4. [Architecture Diagrams](#Architecture-Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
 7. [Upcoming Features](#Upcoming-Features)<br>
