@@ -11,8 +11,9 @@
 # Contents
 1. [Overview](#Overview)<br>
 2. [The Idea](#The-Idea)<br>
-3. [How it works](#How-it-works)<br>
-4. [Diagrams](#Diagrams)<br>
+3. [How it works technically?](#How-it-workstechnically?)<br>
+4. [How SAFE application works?](#How-SAFE-application-works?)<br>
+4. [Architecture Diagrams](#Architecture-Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
 7. [Upcoming Features](#Upcoming-Features)<br>
@@ -36,23 +37,34 @@ We did a survey among our circle of friends to see what they look for in an onli
 * **Overcomes language barrier instantly.**<br>
 * Can be **integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture**.
 
-# How it works
+# How it works technically?
 
 SAFE does this by **using Google APIs – speech to text and text to speech**, which is powered by Google’s unmatched number of training data available through Google platform.
-This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
+This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. The application is **hosted in IBM Cloud for seameless performance**. 
 
-## Salient Features
-* SAFE Application UI is **both desktop and UI compatible**.<br>
+# How SAFE application works? 
+* SAFE is **a web based application**.<br>
 * Allows User to **browse and select a video file**.<br>
 * Allows User to **select a language in which the output is desired**.<br>
-* Post request submission, **video is then played in selected language with 80 to 90% accuracy**.<br>
+* Post request submission, **video is then downloaded and played in selected language**.<br>
 
 # Diagram
-![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
+![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFEArchitecture_v7.jpg)
+
+## How it works internally?
+
+ * **Upload video in SAFE application, hosted by IBM cloud Foundry**.<br>
+ * **Transcript is created from the video using Google Speech-To-text (English Speech to English text) API**.<br>
+ * **Target language transcript is created from the English Transcript**.<br>
+ * **Audio translation of Target language is created from the converted Language transcript using Google text to Speech API**.<br>
+ * **Target language subtitles are created using Python**.<br>
+ * **The translated audio, original video and the translated subtitles are combined to form a single video using MoviPy**.<br>
+ * **The output is provided to the learner**.
 
 # Documents
 
 1. ![SAFE Application FAQ](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
+
 
 # Technology
 
