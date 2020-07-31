@@ -19,9 +19,9 @@
 7. [Getting Started](#Getting-Started)<br> 
 8. [Technology](#Technology)<br>
 9. [Documents](#Documents)<br>
-10. [SAFE RoadMap](#SAFE-RoadMap)<br> 9. 
-11. [Upcoming Features](#Upcoming-Features)<br>
-12. [License](#License)<br>
+10.[SAFE RoadMap](#SAFE-RoadMap)<br> 
+11.[Upcoming Features](#Upcoming-Features)<br>
+12.[License](#License)<br>
 
 # Overview 
 
