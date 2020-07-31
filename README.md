@@ -12,6 +12,7 @@
 1. [Overview](#Overview)<br>
 2. [The Idea](#The-Idea)<br>
 3. [How it works technically?](#How-it-workstechnically?)<br>
+4. [How SAFE Application works?](#How-SAFE-Application-works?)<br>
 4. [Diagrams](#Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
@@ -42,7 +43,7 @@ SAFE does this by **using Google APIs – speech to text and text to speech**, w
 This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
 
 # How SAFE Application works? 
-* SAFE Application UI is **a web based application**.<br>
+* SAFE Application is **a web based application**.<br>
 * Allows User to **browse and select a video file**.<br>
 * Allows User to **select a language in which the output is desired**.<br>
 * Post request submission, **video is then downloaded and played in selected language**.<br>
