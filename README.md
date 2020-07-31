@@ -53,7 +53,6 @@ This solution can be **integrated with any learning platform or** can be used as
 # Documents
 
 1. Complete FAQ - https://callforcode.org/faq/
-2. Most important FAQ - How are submissions entered ?
 
 # Technology
 
