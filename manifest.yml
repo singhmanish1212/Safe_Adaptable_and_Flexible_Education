@@ -1,5 +1,5 @@
 ---
 applications:
- - name: SAFE_Safe_Adaptable_and_Flexible_Education
+ - name: Safe_Adaptable_and_Flexible_Education
    random-route: true
    memory: 128M
