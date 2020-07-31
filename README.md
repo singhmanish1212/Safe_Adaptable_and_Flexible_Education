@@ -61,9 +61,38 @@ This solution can be **integrated with any learning platform or** can be used as
  * The translated audio, original video and the translated subtitles are combined to form a single video using MoviPy.<br>
  * The output is provided to the learner.
 
-# Documents
+# Getting Started
 
-1. [Click here to read detailed application FAQ's](../SAFEApplicationFAQ.txt)
+  ## Pre-requisites
+  
+      * IBM Cloud Account
+      * IBM Cloud Foundry
+      * Node
+      * Python
+
+  ## Steps
+  
+    1. Clone the repo
+    2. Run the Application
+    3. Visit http://localhost:3000 on your browser to run the application.
+
+
+  ## 1. Clone the repo
+        Clone the extract-textual-insights-from-video repo locally. In a terminal, run:        
+        ```
+        $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
+        $ cd Safe_Adaptable_and_Flexible_Education
+        $ git pull
+        ```
+        
+  ## 2. Run the Application  
+        ```
+        $ npm update
+        $ npm start
+        ```
+
+  ## 3. Visit http://localhost:3000 on your browser to run the application.
+  
 
 # Technology
 
@@ -72,6 +101,10 @@ This solution can be **integrated with any learning platform or** can be used as
 
 * **Google API**<br>
 SAFE uses **Google APIs Text to speech and speech to text**, as a major part of the architecture. **Google Cloud Text-to-Speech enables SAFE to synthesize natural-sounding speech with 100+ voices, available in multiple languages and variants**. It **applies DeepMind’s groundbreaking research in WaveNet and Google’s powerful neural networks to deliver the highest fidelity possible**. The **Speech to text API will help SAFE Support global user base with Speech-to-Text’s extensive language support in over 125 languages and variants**.
+
+# Documents
+
+1. [Click here to read detailed application FAQ's](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFEApplicationFAQ.txt)
 
 # Upcoming Features
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
