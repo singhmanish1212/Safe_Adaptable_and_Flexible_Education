@@ -15,10 +15,7 @@
 4. [Diagrams](#Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
-7. [Resources](#Resources)<br>
-8. [License](#License)<br>
-9. [Known Issues](#Known-Issues)<br>
-10. [Upcoming Features](#Upcoming-Features)<br>
+7. [Upcoming Features](#Upcoming-Features)<br>
 
 # Overview 
 
@@ -62,17 +59,6 @@ This solution can be **integrated with any learning platform or** can be used as
 
 * IBM Cloud Services
 * Google API <br>
-
-# Resources
-
-* IBM Cloud
-* Google API
-
-# Licenses
-**to be updated**
-
-# Known Issues
-**to be updated**
 
 # Upcoming Features
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
