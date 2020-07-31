@@ -13,7 +13,7 @@
 2. [The Idea](#The-Idea)<br>
 3. [How it works technically?](#How-it-workstechnically?)<br>
 4. [How SAFE application works?](#How-SAFE-application-works?)<br>
-4. [Architecture Diagrams](#Architecture-Diagrams)<br>
+4. [Architecture Diagram](#Architecture-Diagram)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
 7. [Upcoming Features](#Upcoming-Features)<br>
@@ -48,7 +48,11 @@ This solution can be **integrated with any learning platform or** can be used as
 * Allows User to **select a language in which the output is desired**.<br>
 * Post request submission, **video is then downloaded and played in selected language**.<br>
 
-# Diagram
+# Watch Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![PitchVideo](doc/screenshot_youtube.PNG)](https://youtu.be/Onjq7JUZ2K0)
+
+# Architecture Diagram
 ![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFEArchitecture_v7.jpg)
 
 ## How it works internally?
@@ -78,7 +82,8 @@ This solution can be **integrated with any learning platform or** can be used as
 
 
   ## 1. Clone the repo
-        Clone the extract-textual-insights-from-video repo locally. In a terminal, run:        
+   Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:      
+   
         ```
         $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
         $ cd Safe_Adaptable_and_Flexible_Education
@@ -91,8 +96,13 @@ This solution can be **integrated with any learning platform or** can be used as
         $ npm start
         ```
 
-  ## 3. Visit http://localhost:3000 on your browser to run the application.
+  ## 3. Visit http://localhost:3000 on your browser to run the application.<br>
   
+  ![Screenshot1](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image1.png)
+  
+  ![Screenshot2](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image2.png)
+  
+  ![Screenshot3](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image3.png)
 
 # Technology
 
