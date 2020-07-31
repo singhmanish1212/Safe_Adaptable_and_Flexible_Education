@@ -56,10 +56,10 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Technology
 
-* IBM Cloud Services<br>
+* **IBM Cloud Services**<br>
 **SAFE being an universal solution, IBM Cloud Foundry provides an option to deploy the application anywhere in the world and help us scale up without worrying about the same**. The **ease to run the app locally** and then **hosting in IBM cloud is one of the greatest features** that **helped us to validate the solution locally** and then going for the **hosting in the cloud**. The **fault tolerance and scalability are the two factors, why we considered IBM Cloud Foundry** and by far is the **best solution for our application when we scale SAFE to more languages and locations**.
 
-* Google API <br>
+* **Google API**<br>
 SAFE uses **Google APIs Text to speech and speech to text**, as a major part of the architecture. **Google Cloud Text-to-Speech enables SAFE to synthesize natural-sounding speech with 100+ voices, available in multiple languages and variants**. It **applies DeepMind’s groundbreaking research in WaveNet and Google’s powerful neural networks to deliver the highest fidelity possible**. The **Speech to text API will help SAFE Support global user base with Speech-to-Text’s extensive language support in over 125 languages and variants**.
 
 # Upcoming Features
