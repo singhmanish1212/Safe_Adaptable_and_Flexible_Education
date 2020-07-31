@@ -264,18 +264,20 @@
               console.log("no");
               setTimeout(function(){
                 return searchVideo(videoToGenerateIndex)
-              },30000);
+              },3000);
             },
             success: function()
             {
 
               console.log("yes");
+              window.stop();
               //$(".video-player").get(0).pause();
               setTimeout(function(){  $(".video-player").attr('src', developVideoURL);
                 $(".video-player").get(0).load();
                 $(".video-player").get(0).play();
+                
               }, 50000);
-              window.stop();
+              
 
             }
           });
