@@ -131,7 +131,7 @@ SAFE uses **Google APIs Text to speech and speech to text**, as a major part of 
 ![SAFE Roadmap_v4](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFE_Raodmap_v4.jpg)
 
 # Upcoming Features
-While SAFE web application is currently **handling one National language and one international language** for now, it is **scalable to 125 languages with our current architecture, as is**.
+While SAFE web application is currently **handling nine National language and ten international language** for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
 SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
 It will also be able to **suggest exercises and physical activity**, if the user is taking the course for more than particular time.
