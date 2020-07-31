@@ -21,7 +21,6 @@
 # Overview 
 
 ## What is the problem?
-
 **COVID -19** has **presented us** with **multiple opportunities to explore the technology arena**, especially to **continue education**.<br> Being in a state of **indefinite lock down and social distancing** to be maintained, **we cannot reach our educational institutions**. Hence, we have to take steps to **ensure** that the **education reaches all**, because 
 **“Education is the passport to the future, for tomorrow belongs to those who prepare for today”**. Be it professional or personal, **online mode of learning is now an inevitable part of our lifestyle**. We all explore a pleothera of online portals. <br>
 
@@ -30,6 +29,7 @@
 **With SAFE we break the language barriers. Safe Adaptable and Flexible Education, is a universal solution to solve the problems of many seeking education with an intent of inclusion.**<br>
 
 # The Idea
+
 We did a survey among our circle of friends to see what they look for in an online portal. We found that majority of Folks are struggling to understand the concepts, since the videos provided to them are recorded in English. While we came across a lot of features, the most sought after feature was **"learning in native language."** <br>
 
 **A feature that keeps the interest alive, connects with the learner and help them grasp the concept.**<br>
@@ -43,6 +43,7 @@ SAFE does this by **using Google APIs – speech to text and text to speech**, w
 This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. The application is **hosted in IBM Cloud for seameless performance**. 
 
 # How SAFE application works? 
+
 * SAFE is **a web based application**.<br>
 * Allows User to **browse and select a video file**.<br>
 * Allows User to **select a language in which the output is desired**.<br>
@@ -69,22 +70,20 @@ This solution can be **integrated with any learning platform or** can be used as
 
   ## Pre-requisites
   
-      * IBM Cloud Account
-      * IBM Cloud Foundry
-      * Node
-      * Python
+  * IBM Cloud Account
+  * IBM Cloud Foundry
+  * Node
+  * Python
 
   ## Steps
-  
-    1. Clone the repo
-    2. Run the Application
-    3. Visit http://localhost:3000 on your browser to run the application.
 
+  1. Clone the repo
+  2. Run the Application
+  3. Visit http://localhost:3000 on your browser to run the application.
 
-  ## 1. Clone the repo
+  ## 1. Clone the repo: 
+  Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:          
           ```
-          Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:
-          
           $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
           $ cd Safe_Adaptable_and_Flexible_Education
           $ git pull
@@ -96,7 +95,7 @@ This solution can be **integrated with any learning platform or** can be used as
         $ npm start
         ```
 
-  ## 3. Visit http://localhost:3000 on your browser to run the application.<br>
+  ## 3. Visit http://localhost:3000 on your browser to run the application.
   
   ![Screenshot1](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image1.png)
   
@@ -115,6 +114,10 @@ SAFE uses **Google APIs Text to speech and speech to text**, as a major part of 
 # Documents
 
 1. [Click here to read detailed application FAQ's](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFEApplicationFAQ.txt)
+
+# SAFE RoadMap
+
+![SAFE Roadmap_v4](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFE_Raodmap_v4.jpg)
 
 # Upcoming Features
 While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
