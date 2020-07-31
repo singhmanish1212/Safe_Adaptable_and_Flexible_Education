@@ -40,7 +40,7 @@ We did a survey among our circle of friends to see what they look for in an onli
 # How it works technically?
 
 SAFE does this by **using Google APIs – speech to text and text to speech**, which is powered by Google’s unmatched number of training data available through Google platform.
-This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
+This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. The application is **hosted in IBM Cloud for seameless performance**. 
 
 # How SAFE application works? 
 * SAFE Application is **a web based application**.<br>
