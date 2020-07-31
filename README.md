@@ -43,7 +43,7 @@ SAFE does this by **using Google APIs – speech to text and text to speech**, w
 This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. The application is **hosted in IBM Cloud for seameless performance**. 
 
 # How SAFE application works? 
-* SAFE Application is **a web based application**.<br>
+* SAFE is **a web based application**.<br>
 * Allows User to **browse and select a video file**.<br>
 * Allows User to **select a language in which the output is desired**.<br>
 * Post request submission, **video is then downloaded and played in selected language**.<br>
