@@ -56,7 +56,9 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Technology
 
-* IBM Cloud Services
+* IBM Cloud Services<br>
+**SAFE being an universal solution, IBM Cloud Foundry provides the option to deploy the app anywhere in the world and help us scale up without worrying about the same**. The **ease to run the app locally** and then **hosting in IBM cloud is one of the greatest features** that **helped us in many ways like testing the solution locally** and then going for the hosting in the cloud. The **fault tolerance and scalability are the two factors, why we considered IBM Cloud Foundry** would be the **best solution** for our Web app when we scale SAFE to more languages and locations.
+
 * Google API <br>
 
 # Upcoming Features
