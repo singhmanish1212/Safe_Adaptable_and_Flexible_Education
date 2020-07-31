@@ -11,7 +11,7 @@
 # Contents
 1. [Overview](#Overview)<br>
 2. [The Idea](#The-Idea)<br>
-3. [How it works](#How-it-works)<br>
+3. [How it works technically?](#How-it-workstechnically?)<br>
 4. [Diagrams](#Diagrams)<br>
 5. [Documents](#Documents)<br>
 6. [Technology](#Technology)<br>
@@ -36,23 +36,23 @@ We did a survey among our circle of friends to see what they look for in an onli
 * **Overcomes language barrier instantly.**<br>
 * Can be **integrated with 9 out of 10 online platforms and deliver courses in 125 different languages with as is architecture**.
 
-# How it works
+# How it works technically?
 
 SAFE does this by **using Google APIs – speech to text and text to speech**, which is powered by Google’s unmatched number of training data available through Google platform.
 This solution can be **integrated with any learning platform or** can be used as a **stand-alone application**, where we can **upload a video and get output video in the desired language**. 
 
-## Salient Features
-* SAFE Application UI is **both desktop and UI compatible**.<br>
+# How SAFE Application works? 
+* SAFE Application UI is **a web based application**.<br>
 * Allows User to **browse and select a video file**.<br>
 * Allows User to **select a language in which the output is desired**.<br>
-* Post request submission, **video is then played in selected language with 80 to 90% accuracy**.<br>
+* Post request submission, **video is then downloaded and played in selected language**.<br>
 
 # Diagram
 ![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
 
 # Documents
 
-1. Complete FAQ - https://callforcode.org/faq/
+1. ![Click here to read detailed application FAQ's](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
 
 # Technology
 
