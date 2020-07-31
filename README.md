@@ -52,7 +52,7 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Documents
 
-1. Complete FAQ - https://callforcode.org/faq/
+1. ![SAFE Application FAQ](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
 
 # Technology
 
