@@ -15,8 +15,10 @@
 4. [How SAFE application works?](#How-SAFE-application-works?)<br>
 4. [Architecture Diagram](#Architecture-Diagram)<br>
 5. [Documents](#Documents)<br>
+6. [SAFE RoadMap](#SAFE-RoadMap)<br> 
 6. [Technology](#Technology)<br>
 7. [Upcoming Features](#Upcoming-Features)<br>
+8. [License](#License)<br>
 
 # Overview 
 
@@ -128,3 +130,6 @@ It will also be able to **suggest exercises and physical activity**, if the user
 
 SAFE is a **universal, all-inclusive platform, breaking the language barrier** ready to take the education system by storm. 
 **Because, for team SAFE, All Lives Matter!!**
+
+# License
+This solution starter is made available under the Apache 2 License.
