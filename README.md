@@ -1,3 +1,4 @@
+![SAFE Logo](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFE%20Logo.png)
 # SAFE - Safe Adaptable and Flexible Education
 ## This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
@@ -13,12 +14,14 @@
 2. [The Idea](#The-Idea)<br>
 3. [How it works technically?](#How-it-workstechnically?)<br>
 4. [How SAFE application works?](#How-SAFE-application-works?)<br>
-4. [Architecture Diagram](#Architecture-Diagram)<br>
-5. [Documents](#Documents)<br>
-6. [SAFE RoadMap](#SAFE-RoadMap)<br> 
-6. [Technology](#Technology)<br>
-7. [Upcoming Features](#Upcoming-Features)<br>
-8. [License](#License)<br>
+5. [Watch Video](#Watch-Video)<br>
+6. [Architecture Diagram](#Architecture-Diagram)<br>
+7. [Getting Started](#Getting-Started)<br> 
+8. [Technology](#Technology)<br>
+9. [Documents](#Documents)<br>
+10. [SAFE RoadMap](#SAFE-RoadMap)<br> 9. 
+11. [Upcoming Features](#Upcoming-Features)<br>
+12. [License](#License)<br>
 
 # Overview 
 
@@ -105,7 +108,12 @@ This solution can be **integrated with any learning platform or** can be used as
   ![Screenshot2](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image2.png)
   
   ![Screenshot3](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/Image3.png)
-
+  
+  ## 4. Sample Output Video  
+  Below is the sample output video
+  
+  [![PitchVideo](https://img.youtube.com/vi/Onjq7JUZ2K0/0.jpg)](https://www.youtube.com/watch?v=Onjq7JUZ2K0&feature=youtu.be)  
+  
 # Technology
 
 * **IBM Cloud Services**<br>
@@ -123,7 +131,7 @@ SAFE uses **Google APIs Text to speech and speech to text**, as a major part of 
 ![SAFE Roadmap_v4](https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education/blob/master/SAFE_Raodmap_v4.jpg)
 
 # Upcoming Features
-While SAFE web application is handling one National language and one international language for now, it is **scalable to 125 languages with our current architecture, as is**.
+While SAFE web application is currently **handling one National language and one international language** for now, it is **scalable to 125 languages with our current architecture, as is**.
 We strive to achieve **enhanced accuracy** in future as we continue to train our model. SAFE will be **available as a mobile application too**, since the user base for the hand-held devices is more compared to the personal devices like laptops and desktops. Adding **LIVE streaming events like online classes, conferences will also be a future enhancement**.
 SAFE can also be scaled to **monitor user behaviour** while taking the courses or attending the classes and **suggest some recreational or refreshing activities**. 
 It will also be able to **suggest exercises and physical activity**, if the user is taking the course for more than particular time.
@@ -131,5 +139,5 @@ It will also be able to **suggest exercises and physical activity**, if the user
 SAFE is a **universal, all-inclusive platform, breaking the language barrier** ready to take the education system by storm. 
 **Because, for team SAFE, All Lives Matter!!**
 
-# License
-This solution starter is made available under the Apache 2 License.
+# License 
+This solution starter is made available under the Apache 2 License. 
