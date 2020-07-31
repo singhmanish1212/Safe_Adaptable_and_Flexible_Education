@@ -49,8 +49,8 @@ This solution can be **integrated with any learning platform or** can be used as
 * Post request submission, **video is then downloaded and played in selected language**.<br>
 
 # Watch Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-[![PitchVideo](doc/screenshot_youtube.PNG)](https://youtu.be/Onjq7JUZ2K0)
+[![PitchVideo](https://img.youtube.com/vi/4hCWvuUl5_E/0.jpg)](https://www.youtube.com/watch?v=4hCWvuUl5_E&feature=youtu.be)
+
 
 # Architecture Diagram
 ![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFEArchitecture_v7.jpg)
@@ -82,13 +82,13 @@ This solution can be **integrated with any learning platform or** can be used as
 
 
   ## 1. Clone the repo
-   Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:      
-   
-        ```
-        $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
-        $ cd Safe_Adaptable_and_Flexible_Education
-        $ git pull
-        ```
+          ```
+          Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:
+          
+          $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
+          $ cd Safe_Adaptable_and_Flexible_Education
+          $ git pull
+          ```
         
   ## 2. Run the Application  
         ```
