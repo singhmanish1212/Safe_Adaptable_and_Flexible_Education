@@ -49,7 +49,17 @@ This solution can be **integrated with any learning platform or** can be used as
 * Post request submission, **video is then downloaded and played in selected language**.<br>
 
 # Diagram
-![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFEArchitecture_v7.jpg)
+![Architecture Diagaram](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE_V6.jpg)
+
+## How it works internally?
+
+ * Upload video in the SAFE application hosted by IBM cloud Foundry.<br>
+ * Transcript is created from the video using Google Speech-To-text (English Speech to English text) API.<br>
+ * Target language transcript is created from the English Transcript.<br>
+ * Audio translation of Target language is created from the converted Language transcript using Google text to Speech API.<br>
+ * Target language subtitles are created using Python.<br>
+ * The translated audio, original video and the translated subtitles are combined to form a single video using MoviPy.<br>
+ * The output is provided to the learner.
 
 # Documents
 
