@@ -2,7 +2,7 @@
 ## This solution has been brainstomred and created by technologists from Cognizant as part of IBM Code For Challenge 2020.<br>
 
 # Authors
-* J.Shree Krishna Priya<br>
+* Shree Krishna Priya J<br>
 * Amit Aman<br>
 * Gaurang Sharma<br>
 * Manish Singh<br>
@@ -82,12 +82,13 @@ This solution can be **integrated with any learning platform or** can be used as
   3. Visit http://localhost:3000 on your browser to run the application.
 
   ## 1. Clone the repo: 
-  Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:          
-          ```
-          $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
-          $ cd Safe_Adaptable_and_Flexible_Education
-          $ git pull
-          ```
+  Clone the Safe_Adaptable_and_Flexible_Education repo locally. In a terminal, run:   
+  
+        ```
+        $ git clone https://github.com/singhmanish1212/Safe_Adaptable_and_Flexible_Education
+        $ cd Safe_Adaptable_and_Flexible_Education
+        $ git pull
+        ```
         
   ## 2. Run the Application  
         ```
