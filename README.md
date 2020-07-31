@@ -63,7 +63,7 @@ This solution can be **integrated with any learning platform or** can be used as
 
 # Documents
 
-1. [Click here to read detailed application FAQ's](https://github.com/singhmanish1212/call_for_code2020/blob/dev/SAFE Application FAQ.txt)
+1. [Click here to read detailed application FAQ's](../SAFEApplicationFAQ.txt)
 
 # Technology
 
