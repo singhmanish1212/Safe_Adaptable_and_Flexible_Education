@@ -72,7 +72,7 @@ This solution can be **integrated with any learning platform or** can be used as
 * Google API
 
 # Licenses
-
+**to be updated**
 
 # Known Issues
 **to be updated**
